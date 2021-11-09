@@ -1,4 +1,5 @@
 // import Slider from "../../components/Slider"
+import ScrollAnimation from 'react-animate-on-scroll';
 function Homepage() {
   return (
   <div>
@@ -59,27 +60,26 @@ function Homepage() {
   <div className="container">
     <div className="row">
       <div className="col-lg-6 align-self-center">
+      <ScrollAnimation animateIn="fadeInLeft">
         <div className="about-us-img-wrap about-img-left">
           <img src="img/new/slider2.png" alt="About Us Image" />
-          <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3 d-none">
-            <div className="ltn__video-img ltn__animation-pulse1">
-              <img src="img/others/8.png" alt="video popup bg image" />
-              <a className="ltn__video-icon-2 ltn__video-icon-2-border---" href="https://www.youtube.com/embed/X7R-q9rsrtU?autoplay=1&showinfo=0" data-rel="lightcase:myCollection">
-                <i className="fa fa-play" />
-              </a>
-            </div>
-          </div>
         </div>
+        </ScrollAnimation>
       </div>
       <div className="col-lg-6 align-self-center">
         <div className="about-us-info-wrap">
+        <ScrollAnimation animateIn='bounce'
+          initiallyVisible={true}
+          animateOnce={true}>
           <div className="section-title-area ltn__section-title-2--- mb-30">
             <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6>
             <h1 className="section-title">Dream Living Spaces
               Setting New Build</h1>
             <p>Over 39,000 people work for us in more than 70 countries all over the
               This breadth of global coverage, combined with specialist services</p>
-          </div>                        
+          </div>  
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp">
           <div className="ltn__feature-item ltn__feature-item-3">
             <div className="ltn__feature-icon">
               <span><i className="flaticon-house-4" /></span>
@@ -89,6 +89,8 @@ function Homepage() {
               <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
             </div>
           </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={100}>
           <div className="ltn__feature-item ltn__feature-item-3">
             <div className="ltn__feature-icon">
               <span><i className="flaticon-call-center-agent" /></span>
@@ -98,6 +100,8 @@ function Homepage() {
               <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
             </div>
           </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={300}>
           <div className="ltn__feature-item ltn__feature-item-3">
             <div className="ltn__feature-icon">
               <span><i className="flaticon-maps-and-location" /></span>
@@ -107,6 +111,7 @@ function Homepage() {
               <p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut labore et</p>
             </div>
           </div>
+          </ScrollAnimation>
         </div>
       </div>
     </div>
@@ -116,6 +121,7 @@ function Homepage() {
 <div className="ltn__upcoming-project-area section-bg-1--- bg-image-top pt-115 pb-65" data-bs-bg="img/new/projects.jpg">
   <div className="container">
     <div className="row">
+    <ScrollAnimation animateIn="fadeIn">
       <div className="col-lg-12">
         <div className="section-title-area ltn__section-title-2--- text-center---">
           <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">Upcoming Projects</h6>
@@ -123,6 +129,7 @@ function Homepage() {
             Setting New Standards</h1>
         </div>
       </div>
+      </ScrollAnimation>
     </div>
     <div className="row ltn__upcoming-project-slider-1-active slick-arrow-3">
       {/* upcoming-project-item */}
@@ -226,6 +233,7 @@ function Homepage() {
     </div>
     <div className="row ltn__custom-gutter---  justify-content-center">
       <div className="col-lg-4 col-sm-6 col-12">
+    <ScrollAnimation animateIn="fadeIn">
         <div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
           <div className="ltn__feature-icon">
             {/* <span><i class="flaticon-house"></i></span> */}
@@ -237,8 +245,10 @@ function Homepage() {
             <a className="ltn__service-btn" href="service-details.html">Find A Home <i className="flaticon-right-arrow" /></a>
           </div>
         </div>
+      </ScrollAnimation>
       </div>
       <div className="col-lg-4 col-sm-6 col-12">
+    <ScrollAnimation animateIn="fadeIn" delay={300}>
         <div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 active">
           <div className="ltn__feature-icon">
             {/* <span><i class="flaticon-house-3"></i></span> */}
@@ -250,8 +260,10 @@ function Homepage() {
             <a className="ltn__service-btn" href="service-details.html">Find A Home <i className="flaticon-right-arrow" /></a>
           </div>
         </div>
+      </ScrollAnimation>
       </div>
       <div className="col-lg-4 col-sm-6 col-12">
+      <ScrollAnimation animateIn="fadeIn" delay={500}>
         <div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
           <div className="ltn__feature-icon">
             {/* <span><i class="flaticon-deal-1"></i></span> */}
@@ -263,6 +275,7 @@ function Homepage() {
             <a className="ltn__service-btn" href="service-details.html">Find A Home <i className="flaticon-right-arrow" /></a>
           </div>
         </div>
+      </ScrollAnimation>
       </div>
     </div>
   </div>
