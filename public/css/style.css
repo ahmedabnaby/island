@@ -211,7 +211,7 @@ font-family: 'Poppins', sans-serif;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: #FF5A3C;
+  --ltn__secondary-color: #235e66;
   --ltn__secondary-color-2: #cb3421;
   /* Darken */
   --ltn__secondary-color-3: #fb412a;
@@ -254,7 +254,9 @@ font-family: 'Poppins', sans-serif;
   /* Black */
   --border-color-3: #5C617F;
   /* Black */
-  --border-color-4: #eb6954;
+  /* --border-color-4: #eb6954; */
+  --border-color-4: #1a4b52;
+
   /* Red */
   --border-color-5: #bc3928;
   /* Red */
