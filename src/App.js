@@ -7,8 +7,8 @@ function App() {
   return (
   <div className="body-wrapper">
     <Navbar/>
-    <Homepage/>
     <Preloader/>
+    <Homepage/>
     <Footer/>
   </div>
   );

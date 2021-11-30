@@ -211,7 +211,7 @@ font-family: 'Poppins', sans-serif;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: #235e66;
+  --ltn__secondary-color: #243c74;
   --ltn__secondary-color-2: #cb3421;
   /* Darken */
   --ltn__secondary-color-3: #fb412a;
@@ -359,7 +359,7 @@ body {
   font-family: var(--ltn__body-font);
   line-height: 1.8;
   margin: 0 auto; 
-  background-color: #171B2A;  
+  background-color: #111e25;  
   /* background-color: #133236; */
 }
 
@@ -450,8 +450,9 @@ a i {
   padding: 0 2px; }
 
 img {
-  max-width: 100%; }
-
+  max-width: 100%;
+  pointer-events: none;
+}
 ul li,
 ol li {
   margin-top: 1rem; }
@@ -8535,7 +8536,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../img/bg/21.jpg);
+    background-image: url(../img/new/cover.jpg);
     height: 100%;
     width: 48%;
     left: auto;
@@ -8566,7 +8567,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     background-size: inherit; }
   .bg-image-right-before::before,
   .bg-image-left-before::before {
-    display: none; } }
+    position: absolute;
+  left: 0%;
+  width: 100%;
+  background-image: url(../img/new/cover-darken.png) !important;
+  background-attachment: fixed;
+} 
+}
 
 .ltn__social-media-4 ul {
   margin: 0;
