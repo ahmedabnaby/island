@@ -6,7 +6,7 @@ function Homepage() {
     <div className="ltn__slider-area ltn__slider-3 section-bg-2">
   <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
     {/* ltn__slide-item */}
-    <div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/slider2.jpg">
+    <div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/4.jpg">
       <div className="ltn__slide-item-inner text-center">
         <div className="container">
           <div className="row">
@@ -29,7 +29,7 @@ function Homepage() {
       </div>
     </div>
     {/* ltn__slide-item */}
-    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/slider1.jpg">
+    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/3.jpg">
   <div className="ltn__slide-item-inner  text-left">
     <div className="container">
       <div className="row">
