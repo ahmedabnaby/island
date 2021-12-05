@@ -60,7 +60,7 @@ function Navbar() {
         <div className="col">
           <div className="site-logo-wrap">
             <div className="site-logo">
-              <a href="index.html"><img src="img/logo-2.png" alt="Logo" /></a>
+              <a href="index.html"><img src="img/new/logo.jpeg" alt="Logo" /></a>
             </div>
             <div className="get-support clearfix d-none">
               <div className="get-support-icon">
