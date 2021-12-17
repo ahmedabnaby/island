@@ -67,6 +67,10 @@ font-family: 'Titillium Web', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
+/*
+DOSIS FONT
+*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 /* ====================================================
     Gutter Code 
 ==================================================== */
@@ -211,7 +215,7 @@ font-family: 'Poppins', sans-serif;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: #243c74;
+  --ltn__secondary-color: #1b30a3;
   --ltn__secondary-color-2: #cb3421;
   /* Darken */
   --ltn__secondary-color-3: #fb412a;
@@ -220,7 +224,8 @@ font-family: 'Poppins', sans-serif;
   --ltn__heading-color: #F5DFDC;
   /* --ltn__heading-color: #F5DFDC; */
   --ltn__paragraph-color: #5C727D;
-  --ltn__heading-font: 'Poppins', sans-serif;
+  /* --ltn__heading-font: 'Poppins', sans-serif; */
+  --ltn__heading-font: font-family: 'Dosis', sans-serif;
   --ltn__body-font: 'Nunito Sans', sans-serif;
   /* Footer ACD2D8 8CB2B2  */
   --ltn__color-1: #8cb2b2;
@@ -9140,7 +9145,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     margin-bottom: 5px; }
   .ltn__feature-item-3 .ltn__feature-icon {
     margin: 0px 20px 0 0;
-    font-size: 50px;
+    font-size: 35px;
     color: var(--ltn__secondary-color);
     line-height: 1.5; }
   .ltn__feature-item-3::before {

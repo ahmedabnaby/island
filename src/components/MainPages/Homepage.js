@@ -6,20 +6,20 @@ function Homepage() {
     <div className="ltn__slider-area ltn__slider-3 section-bg-2">
   <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
     {/* ltn__slide-item */}
-    <div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/4.jpg">
+    <div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/new-5.jpg">
       <div className="ltn__slide-item-inner text-center">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 align-self-center">
               <div className="slide-item-info">
                 <div className="slide-item-info-inner ltn__slide-animation">
-                  <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6>
-                  <h1 className="slide-title animated ">Find Your Dream <br /> House By Us</h1>
+                  <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> The Construction You Count On</h6>
+                  <h1 className="slide-title animated ">Island For Construction</h1>
                   <div className="slide-brief animated">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                   </div>
                   <div className="btn-wrapper animated">
-                    <a href="shop.html" className="theme-btn-1 btn btn-effect-1">Make An Enquiry</a>
+                    <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -29,20 +29,20 @@ function Homepage() {
       </div>
     </div>
     {/* ltn__slide-item */}
-    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/3.jpg">
+    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/new-4.jpg">
   <div className="ltn__slide-item-inner  text-left">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 align-self-center">
           <div className="slide-item-info">
             <div className="slide-item-info-inner ltn__slide-animation">
-              <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6>
-              <h1 className="slide-title animated ">Find Your Dream <br /> House By Us</h1>
+              <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island For Construction</h6>
+              <h1 className="slide-title animated ">The Construction You Count On</h1>
               <div className="slide-brief animated">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
               </div>
               <div className="btn-wrapper animated">
-                <a href="shop.html" className="theme-btn-1 btn btn-effect-1">Make An Enquiry</a>
+                <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn more</a>
               </div>
             </div>
           </div>
@@ -57,13 +57,13 @@ function Homepage() {
 </div>
 
 
-<div className="ltn__about-us-area pt-115 pb-100 ">
+<div className="ltn__about-us-area pt-115 pb-100 " id="about">
   <div className="container">
     <div className="row">
       <div className="col-lg-6 align-self-center">
       <ScrollAnimation animateIn="fadeInLeft">
         <div className="about-us-img-wrap about-img-left">
-          <img src="img/new/about-us.png" alt="About Us Image" />
+          <img src="img/new/about-us1.png" alt="About Us Image" />
         </div>
         </ScrollAnimation>
       </div>
@@ -82,7 +82,7 @@ function Homepage() {
           <ScrollAnimation animateIn="fadeInUp">
           <div className="ltn__feature-item ltn__feature-item-3">
             <div className="ltn__feature-icon">
-              <span><i className="flaticon-house-4" /></span>
+              <span><i className="icon-award" /></span>
             </div>
             <div className="ltn__feature-info">
               <h4><a href="service-details.html">Our investment capacity</a></h4>
@@ -93,7 +93,7 @@ function Homepage() {
           <ScrollAnimation animateIn="fadeInUp" delay={100}>
           <div className="ltn__feature-item ltn__feature-item-3">
             <div className="ltn__feature-icon">
-              <span><i className="flaticon-call-center-agent" /></span>
+              <span><i className="flaticon-user" /></span>
             </div>
             <div className="ltn__feature-info">
               <h4><a href="service-details.html">Our people</a></h4>
@@ -104,7 +104,7 @@ function Homepage() {
           <ScrollAnimation animateIn="fadeInUp" delay={300}>
           <div className="ltn__feature-item ltn__feature-item-3">
             <div className="ltn__feature-icon">
-              <span><i className="flaticon-maps-and-location" /></span>
+              <span><i className="icon-star-1" /></span>
             </div>
             <div className="ltn__feature-info">
               <h4><a href="service-details.html">Our entrepreneurial attitude</a></h4>
@@ -122,7 +122,7 @@ function Homepage() {
   <div className="container">
     <div className="row">
       <div className="col-lg-6 align-self-center">
-        <div className="about-us-info-wrap">
+        <div className="about-us-info-wrap dark-bg">
           <div className="section-title-area ltn__section-title-2--- mb-20">
             {/* <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">BUSINESS DIVISIONS</h6> */}
             <h1 className="section-title">Business Divisions</h1>
@@ -154,11 +154,6 @@ function Homepage() {
               <h4><i className="icon-car" /> Transportation & Community</h4>
               <p><i className="icon-done" /> Museums, University Buildings, Airports, Sewage stations, Water, Gas and Electricity stations</p>
             </div>
-          </div>
-          <div className="  ltn__animation-pulse2 text-center mt-30">
-            <a className="ltn__video-play-btn bg-white--- ltn__secondary-bg" href="https://www.youtube.com/embed/HnbMYzdjuBs?autoplay=1&showinfo=0" data-rel="lightcase">
-              <i className="icon-play  ltn__secondary-color--- white-color" />
-            </a>
           </div>
         </div>
       </div>
@@ -207,7 +202,7 @@ function Homepage() {
                   <li>5. Total Investment: <span>$14,500,00</span></li>
                 </ul>
                 <div className="btn-wrapper animated">
-                  <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a>
+                  {/* <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a> */}
                 </div>
               </div>
             </div>
@@ -235,7 +230,7 @@ function Homepage() {
                   <li>5. Total Investment: <span>$14,500,00</span></li>
                 </ul>
                 <div className="btn-wrapper animated">
-                  <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a>
+                  {/* <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a> */}
                 </div>
               </div>
             </div>
@@ -243,44 +238,6 @@ function Homepage() {
         </div>
       </div>
 
-  <div className="ltn__img-slider-area">
-  <div className="container-fluid">
-    <div className="row ltn__image-slider-4-active slick-arrow-1 slick-arrow-1-inner ltn__no-gutter-all">
-      <div className="col-lg-12">
-        <div className="ltn__img-slide-item-4">
-          <a href="img/new/project9.png" data-rel="lightcase:myCollection">
-            <img src="img/new/project9.png" alt="Image" />
-          </a>
-          <div className="ltn__img-slide-info">
-            <div className="ltn__img-slide-info-brief">
-              <h6>Heart of NYC</h6>
-              <h1><a href="portfolio-details.html">Manhattan </a></h1>
-            </div>
-            <div className="btn-wrapper">
-              <a href="portfolio-details.html" className="btn theme-btn-1 btn-effect-1 text-uppercase">Details</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-12">
-        <div className="ltn__img-slide-item-4">
-          <a href="img/img-slide/22.jpg" data-rel="lightcase:myCollection">
-            <img src="img/img-slide/22.jpg" alt="Image" />
-          </a>
-          <div className="ltn__img-slide-info">
-            <div className="ltn__img-slide-info-brief">
-              <h6>The luxury crib</h6>
-              <h1><a href="portfolio-details.html">Upper East Side</a></h1>
-            </div>
-            <div className="btn-wrapper">
-              <a href="portfolio-details.html" className="btn theme-btn-1 btn-effect-1 text-uppercase">Details</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
       {/* upcoming-project-item */}
@@ -304,7 +261,7 @@ function Homepage() {
                   <li>5. Total Investment: <span>$14,500,00</span></li>
                 </ul>
                 <div className="btn-wrapper animated">
-                  <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a>
+                  {/* <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a> */}
                 </div>
               </div>
             </div>
@@ -319,7 +276,7 @@ function Homepage() {
 
 
 
-<div className="ltn__brand-logo-area ltn__brand-logo-1 section-bg-3 pt-110 pb-110 plr--9 d-none---">
+<div className="ltn__brand-logo-area ltn__brand-logo-1 section-bg-1 pt-110 pb-110 plr--9 d-none---">
   <div className="container-fluid">
     <div className="row ltn__brand-logo-active">
       <div className="col-lg-12">

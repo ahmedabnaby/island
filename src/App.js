@@ -5,9 +5,9 @@ import Footer from "./includes/Footer"
 import "animate.css/animate.min.css";
 function App() {
   return (
-  <div className="body-wrapper">
-    <Navbar/>
+    <div className="body-wrapper">
     <Preloader/>
+    <Navbar/>
     <Homepage/>
     <Footer/>
   </div>
