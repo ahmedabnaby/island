@@ -201,9 +201,9 @@ function Homepage() {
                   <li>4. No. Of Apartments: <span>568</span></li>
                   <li>5. Total Investment: <span>$14,500,00</span></li>
                 </ul>
-                <div className="btn-wrapper animated">
-                  {/* <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a> */}
-                </div>
+                {/* <div className="btn-wrapper animated">
+                  <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a>
+                </div> */}
               </div>
             </div>
           </div>
@@ -229,9 +229,9 @@ function Homepage() {
                   <li>4. No. Of Apartments: <span>568</span></li>
                   <li>5. Total Investment: <span>$14,500,00</span></li>
                 </ul>
-                <div className="btn-wrapper animated">
-                  {/* <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a> */}
-                </div>
+                {/* <div className="btn-wrapper animated">
+                  <a href="contact.html" className="theme-btn-1 btn btn-effect-1">Download Brochure</a>
+                </div> */}
               </div>
             </div>
           </div>
@@ -276,7 +276,7 @@ function Homepage() {
 
 
 
-<div className="ltn__brand-logo-area ltn__brand-logo-1 section-bg-1 pt-110 pb-110 plr--9 d-none---">
+<div className="ltn__brand-logo-area ltn__brand-logo-1 section-bg-5 pt-110 pb-110 plr--9 d-none---">
   <div className="container-fluid">
     <div className="row ltn__brand-logo-active">
       <div className="col-lg-12">
@@ -313,7 +313,7 @@ function Homepage() {
   </div>
 </div>
 
-<div className="ltn__img-slider-area pt-4">
+<div className="ltn__img-slider-area">
   <div className="container-fluid">
     <div className="row ltn__image-slider-4-active slick-arrow-1 slick-arrow-1-inner ltn__no-gutter-all">
       <div className="col-lg-12">

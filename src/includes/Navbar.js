@@ -8,9 +8,9 @@ function Navbar() {
       <div className="row">
         <div className="col">
           <div className="site-logo-wrap">
-            <a href="#">
+          <a href="#">
             <div className="site-logo">
-              <a href="index.html"><img src="img/new/logo.jpeg" alt="Logo" /></a>
+              <img src="img/new/logo.jpeg" alt="Logo" />
             </div>
             </a>
           </div>

@@ -22,7 +22,7 @@
 {
     color: #000 !important;
 }
-@media only screen  and (max-width:768px) {
+@media only screen and (max-width:768px) {
     .dark-bg
     {
         background-color: rgba(0, 0, 0, 0.774) !important;
