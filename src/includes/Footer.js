@@ -10,7 +10,7 @@ function Footer() {
           <div className="footer-widget footer-about-widget">
             <div className="footer-logo">
               <div className="site-logo">
-                <img src="img/new/logo.jpeg" alt="Logo" />
+                <img src="img/new/edited-logo.png" alt="Logo" />
               </div>
             </div>
             <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
@@ -42,17 +42,17 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="ltn__social-media mt-20">
+            {/* <div className="ltn__social-media mt-20">
               <ul>
                 <li><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
                 <li><a href="#" title="Twitter"><i className="fab fa-twitter" /></a></li>
                 <li><a href="#" title="Linkedin"><i className="fab fa-linkedin" /></a></li>
                 <li><a href="#" title="Youtube"><i className="fab fa-youtube" /></a></li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="col-xl-2 col-md-6 col-sm-6 col-12">
+        <div className="col-xl-3 col-md-6 col-sm-6 col-12">
           <div className="footer-widget footer-menu-widget clearfix">
             <h4 className="footer-title">Company</h4>
             <div className="footer-menu">
@@ -67,7 +67,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="col-xl-2 col-md-6 col-sm-6 col-12">
+        <div className="col-xl-3 col-md-6 col-sm-6 col-12">
           <div className="footer-widget footer-menu-widget clearfix">
             <h4 className="footer-title">Services</h4>
             <div className="footer-menu">
@@ -82,7 +82,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="col-xl-5 col-md-6 col-sm-6 col-12">
+        <div className="col-xl-3 col-md-6 col-sm-6 col-12">
           <a href="#">
           <div className="footer-widget footer-menu-widget clearfix">
             <img src="img/new/map.jpg" role="..." alt="..." className="map-img"/>

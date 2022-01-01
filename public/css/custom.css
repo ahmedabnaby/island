@@ -5,7 +5,7 @@
 .map-img
 {
     border-radius: 25px;
-    width: 90%;
+    width: 75%;
 }
 .nav-sub-menu
 {
@@ -22,7 +22,20 @@
 {
     color: #000 !important;
 }
-@media only screen and (max-width:768px) {
+.slider-logo
+{
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    padding-bottom: 15px;
+}
+.ltn__brand-logo-area
+{
+    margin-top: -30px;
+}
+@media only screen and (max-width:767px) {
     .dark-bg
     {
         background-color: rgba(0, 0, 0, 0.774) !important;
@@ -31,5 +44,14 @@
     }.map-img
     {
         width: 100%;
+    }
+    .slider-logo
+    {
+        text-align: center;
+        align-items: center;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        padding-bottom: 15px;
     }
 }
