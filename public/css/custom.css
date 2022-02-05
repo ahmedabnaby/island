@@ -58,4 +58,13 @@
     {
         margin-top: 0px;
     }
+    .ltn__slide-animation {
+        position: relative;
+        z-index: 9;
+        left: 0% !important; 
+    }
+    .d-mobile-none
+    {
+        display: none !important;
+    }
 }

@@ -561,7 +561,7 @@ part of our policies, philosophy and procedures.
 
 
 {/* CLIENTS */}
-<div className="ltn__img-slider-area" id='clients'>
+<div className="ltn__img-slider-area d-mobile-none" id='clients'>
   <div className="container">
   <div className="row">
     <ScrollAnimation animateIn="fadeIn">
