@@ -1,9 +1,9 @@
 function Navbar() {
   return (
       <div>
-<header className="ltn__header-area ltn__header-5 ltn__header-logo-and-mobile-menu-in-mobile ltn__header-logo-and-mobile-menu ltn__header-transparent gradient-color-4---">
+<header className="ltn__header-area ltn__header-5 ltn__header-logo-and-mobile-menu-in-mobile ltn__header-logo-and-mobile-menu ltn__header-transparent--- gradient-color-4---">
   {/* ltn__header-middle-area start */}
-  <div className="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-black">
+  <div className="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-white">
     <div className="container">
       <div className="row">
         <div className="col">
@@ -20,25 +20,38 @@ function Navbar() {
             <nav>
               <div className="ltn__main-menu">
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-
-                  <li><a href="#">Strength</a>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a>
                   <ul className="nav-sub-menu">
                       <div className="row"> 
                       <div className="col">
-                      <li><a href="#">ISO</a></li>
-                      <img src="img/new/ISO.png" />
+                      <li><a href="#about">Mission</a></li>
+                      {/* <img src="img/new/mision-vision.png" /> */}
                       </div>
                       <div className="col">
+                      <li><a href="#about">Vision</a></li>
+                      {/* <img src="img/new/4.jpg" /> */}
+                      </div>
+                    </div>
+                    </ul>
+                    </li>
+
+                  <li><a href="#strength">Strengths</a>
+                  <ul className="nav-sub-menu">
+                      <div className="row"> 
+                      <div className="col">
+                      <li><a href="#strength">ISO</a></li>
+                      <img src="img/new/ISO.png" />
+                      </div>
+                      {/* <div className="col">
                       <li><a href="#">Quality Control</a></li>
                       <img src="img/new/4.jpg" />
-                      </div>
+                      </div> */}
                     </div>
                     </ul></li>
 
-                  <li><a href="#">Saftey</a>
-                    <ul className="nav-sub-menu">
+                  <li><a href="#saftey">Saftey</a>
+                    {/* <ul className="nav-sub-menu">
                       <div className="row"> 
                       <div className="col">
                       <li><a href="#">Saftey</a></li>
@@ -49,12 +62,12 @@ function Navbar() {
                       <img src="img/new/3.jpg" />
                       </div>
                     </div>
-                    </ul>
+                    </ul> */}
                   </li>
-                  <li><a href="#">Clients</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Projects</a></li>
-                  <li><a href="#">Careers</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#news">News</a></li>
+                  <li><a href="#clients">Clients</a></li>
+                  <li><a href="#careers">Careers</a></li>
                 </ul>
               </div>
             </nav>
@@ -103,16 +116,16 @@ function Navbar() {
               <li><a href="index-11.html">Home Style 11</a></li>
             </ul> */}
           </li>
-          <li><a href="#">About</a>
+          <li><a href="#about">About</a>
           </li>
           
-          <li><a href="#">Strength</a>
+          <li><a href="#strengths">Strength</a>
           </li>
-          <li><a href="#">Health</a>
+          <li><a href="#saftey">Health</a>
           </li>
-          <li><a href="#">Clients</a></li>
+          <li><a href="#clients">Clients</a></li>
 
-          <li><a href="#">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
 
           <li><a href="#">News</a></li>
 

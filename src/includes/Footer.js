@@ -6,14 +6,14 @@ function Footer() {
   <div className="footer-top-area  section-bg-2 plr--5">
     <div className="container-fluid">
       <div className="row">
-        <div className="col-xl-3 col-md-6 col-sm-6 col-12">
+        <div className="col-xl-4 col-md-6 col-sm-6 col-12">
           <div className="footer-widget footer-about-widget">
             <div className="footer-logo">
               <div className="site-logo">
                 <img src="img/new/edited-logo.png" alt="Logo" />
               </div>
             </div>
-            <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
+            <p>Feel free to contact us.</p>
             <div className="footer-address">
               <ul>
                 <li>
@@ -21,7 +21,7 @@ function Footer() {
                     <i className="icon-placeholder" />
                   </div>
                   <div className="footer-address-info">
-                    <p>Brooklyn, New York, United States</p>
+                    <p>26 Aden St., Shehab St. Mohandessin - Giza</p>
                   </div>
                 </li>
                 <li>
@@ -29,7 +29,7 @@ function Footer() {
                     <i className="icon-call" />
                   </div>
                   <div className="footer-address-info">
-                    <p><a href="tel:+0123-456789">+0123-456789</a></p>
+                    <p><a href="tel:+201273890100">+(2) 012 - 7389- 0100</a></p>
                   </div>
                 </li>
                 <li>
@@ -37,7 +37,7 @@ function Footer() {
                     <i className="icon-mail" />
                   </div>
                   <div className="footer-address-info">
-                    <p><a href="mailto:example@example.com">example@example.com</a></p>
+                    <p><a href="mailto:info@islandeg.com">I N F O @ I S L A N D E G . C O M</a></p>
                   </div>
                 </li>
               </ul>
@@ -52,43 +52,37 @@ function Footer() {
             </div> */}
           </div>
         </div>
-        <div className="col-xl-3 col-md-6 col-sm-6 col-12">
+        <div className="col-xl-4 col-md-6 col-sm-6 col-12">
           <div className="footer-widget footer-menu-widget clearfix">
             <h4 className="footer-title">Company</h4>
             <div className="footer-menu">
               <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="shop.html">All Products</a></li>
-                <li><a href="locations.html">Locations Map</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="https://www.google.com/maps/dir/30.047652,31.4570441/Island+Agencies+%26+Services,+26+Aden+St,+Giza+Governorate/@30.029835,31.1855104,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x14584136222ead29:0x60e0447f0acde3fa!2m2!1d31.1949225!2d30.0518536">Locations Map</a></li>
+                <li><a href="#">Fax - (+202) 333-563-90</a></li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="col-xl-3 col-md-6 col-sm-6 col-12">
+        <div className="col-xl-4 col-md-6 col-sm-6 col-12">
           <div className="footer-widget footer-menu-widget clearfix">
-            <h4 className="footer-title">Services</h4>
+            <h4 className="footer-title">Quick links</h4>
             <div className="footer-menu">
               <ul>
-                <li><a href="order-tracking.html">Order tracking</a></li>
-                <li><a href="wishlist.html">Wish List</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="account.html">My account</a></li>
-                <li><a href="about.html">Terms &amp; Conditions</a></li>
-                <li><a href="about.html">Promotional Offers</a></li>
+                <li><a href="#saftey"> Health & Saftey</a></li>
+                <li><a href="#strengths">Strengths</a></li>
+                <li><a href="#projects">Projects</a></li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="col-xl-3 col-md-6 col-sm-6 col-12">
+        {/* <div className="col-xl-3 col-md-6 col-sm-6 col-12">
           <a href="#">
           <div className="footer-widget footer-menu-widget clearfix">
             <img src="img/new/map.jpg" role="..." alt="..." className="map-img"/>
           </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
@@ -97,17 +91,17 @@ function Footer() {
       <div className="row">
         <div className="col-md-6 col-12">
           <div className="ltn__copyright-design clearfix">
-            <p>All Rights Reserved @ Company <span className="current-year" /></p>
+            <p>All Rights Reserved @ Island <span className="current-year" /></p>
           </div>
         </div>
-        <div className="col-md-6 col-12 align-self-center">
+        {/* <div className="col-md-6 col-12 align-self-center">
           <div className="ltn__copyright-menu text-end">
             <ul>
               <li><a href="#">Terms &amp; Conditions</a></li>
               <li><a href="#">Privacy &amp; Policy</a></li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
