@@ -8525,6 +8525,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-position: center center;
   background-repeat: no-repeat; }
 
+  .bg-image-1 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
+
 .bg-image-top {
   background-size: auto;
   background-position: top center;
@@ -10719,7 +10724,7 @@ blockquote {
   .ltn__banner-style-4:hover::before {
     opacity: 0.15; 
 }
-.bg-image:hover, .ltn__banner-style-4:hover::before
+.bg-image-1:hover, .ltn__banner-style-4:hover::before
 {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);

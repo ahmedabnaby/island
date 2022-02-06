@@ -421,7 +421,7 @@ part of our policies, philosophy and procedures.
     <div className="row">
   {this.state.categories.map(category => (
     <div className="col-lg-4 col-md-6" key={category.id}>
-        <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" style={{backgroundImage: `url(${category.image})`}}>                        
+        <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image-1" style={{backgroundImage: `url(${category.image})`}}>                        
           <div className="ltn__banner-info">
             <h3><a href="shop.html">  {category.title}</a></h3>
             <p> • {category.description}</p>
