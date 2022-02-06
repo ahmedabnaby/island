@@ -3,14 +3,14 @@ function Footer() {
   return (
 
     <footer className="ltn__footer-area  ">
-  <div className="footer-top-area  section-bg-2 plr--5">
+  <div className="footer-top-area  section-bg-1 plr--5">
     <div className="container-fluid">
       <div className="row">
         <div className="col-xl-4 col-md-6 col-sm-6 col-12">
           <div className="footer-widget footer-about-widget">
             <div className="footer-logo">
               <div className="site-logo">
-                <img src="img/new/edited-logo.png" alt="Logo" />
+                <img src="img/new/logonobg.png" alt="Logo" />
               </div>
             </div>
             <p>Feel free to contact us.</p>
@@ -54,7 +54,7 @@ function Footer() {
         </div>
         <div className="col-xl-4 col-md-6 col-sm-6 col-12">
           <div className="footer-widget footer-menu-widget clearfix">
-            <h4 className="footer-title">Company</h4>
+            <h4 className="footer-title">COMPANY</h4>
             <div className="footer-menu">
               <ul>
                 <li><a href="#about">About</a></li>
@@ -66,7 +66,7 @@ function Footer() {
         </div>
         <div className="col-xl-4 col-md-6 col-sm-6 col-12">
           <div className="footer-widget footer-menu-widget clearfix">
-            <h4 className="footer-title">Quick links</h4>
+            <h4 className="footer-title">QUICK LINKS</h4>
             <div className="footer-menu">
               <ul>
                 <li><a href="#saftey"> Health & Saftey</a></li>

@@ -35,6 +35,10 @@
 {
     margin-top: -30px;
 }
+.new_bg_dark
+{
+    background-color: var(--black-2) !important;
+}
 @media only screen and (max-width:767px) {
     .dark-bg
     {

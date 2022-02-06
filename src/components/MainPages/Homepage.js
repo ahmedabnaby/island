@@ -55,7 +55,7 @@ renderItems = () => {
           <div className="slide-item-info">
             <div className="slide-item-info-inner ltn__slide-animation">
               <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6>
-              <h1 className="slide-title animated ">The Construction You Count On</h1>
+              <h1 className="slide-title animated ">THE CONSTRUCTION YOU COUNT ON</h1>
               <div className="slide-brief animated">
                 <p>Has accumulated a wide and diversed experience over the years.</p>
               </div>
@@ -98,7 +98,70 @@ renderItems = () => {
 </div>
 
 {/* ABOUT */}
-<div className="ltn__about-us-area section-bg-1 pt-120 pb-90" id="about">
+
+<div className="ltn__about-us-area pt-115 pb-100 " id="about">
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-6 align-self-center">
+      <ScrollAnimation animateIn="fadeInLeft">
+        <div className="about-us-img-wrap about-img-left">
+          <img src="img/new/covers.jpg" alt="About Us Image" />
+        </div>
+        </ScrollAnimation>
+      </div>
+      <div className="col-lg-6 align-self-center">
+        <div className="about-us-info-wrap">
+        <ScrollAnimation animateIn='bounce'
+          initiallyVisible={true}
+          animateOnce={true}>
+          <div className="section-title-area ltn__section-title-2--- mb-30">
+            {/* <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6> */}
+            <h1 className="section-title">ABOUT US</h1>
+            <p>ISLAND is committed to provide its clients with a product meeting contractual requirements
+               and clients’ needs at fair cost.</p>
+          </div>  
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp">
+          <div className="ltn__feature-item ltn__feature-item-3">
+            <div className="ltn__feature-icon">
+              <span><i className="icon-award" /></span>
+            </div>
+            <div className="ltn__feature-info">
+              <h4><a href="#">Mission</a></h4>
+              <p> <i className="icon-done" />  &nbsp; We will work to deliver exceptional value for our shareholders by following 
+a coherent and considered strategy.</p>
+<p> <i className="icon-done" />  &nbsp; Targeting large, complex construction projects in foreigners’ markets.</p>
+<p> <i className="icon-done" />  &nbsp; Working in partnership with local and global leaders.</p>
+<p> <i className="icon-done" />  &nbsp; Maintaining our commitment to quality and safety.</p>
+            </div>
+          </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={100}>
+          <div className="ltn__feature-item ltn__feature-item-3">
+            <div className="ltn__feature-icon">
+              <span><i className="flaticon-user" /></span>
+            </div>
+            <div className="ltn__feature-info">
+              <h4><a href="#">Vision</a></h4>
+              <p><i className="icon-done" /> &nbsp; We aspire within the next ë ve years to be recognized as the contractor of 
+choice for large, complex and demanding construction projects in the Middle 
+East as Egypt.</p>
+<p><i className="icon-done" /> &nbsp; We are committed to delivering quality work and products, safely and on 
+schedule.</p>
+<p><i className="icon-done" /> &nbsp; A company that our clients want work with, our customers can rely on 
+through high quality & healthy working environment and our employees are 
+proud to work for.</p>
+            </div>
+          </div>
+          </ScrollAnimation>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <div className="ltn__about-us-area section-bg-1 pt-120 pb-90" id="about">
   <div className="container">
     <div className="row">
       <div className="col-lg-6">
@@ -106,8 +169,6 @@ renderItems = () => {
           <div className="section-title-area ltn__section-title-2--- mb-20">
             <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About us</h6>
             <h1 className="section-title">Mission</h1>
-            {/* <p>Over 39,000 people work for us in more than 70 countries all over the
-              This breadth of global coverage, combined with specialist services</p> */}
           </div>
           <ul className="ltn__list-item-half ltn__list-item-half-2 clearfix">
             <li>
@@ -158,8 +219,6 @@ promote their sense of leadership and team working.
           <div className="section-title-area ltn__section-title-2--- mb-20">
             <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">&nbsp;</h6>
             <h1 className="section-title">Vision</h1>
-            {/* <p>Over 39,000 people work for us in more than 70 countries all over the
-              This breadth of global coverage, combined with specialist services</p> */}
           </div>
           <ul className="ltn__list-item-half ltn__list-item-half-2 clearfix">
             <li>
@@ -195,7 +254,7 @@ innovation and challenging convention.
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
 
 {/* STRENGTHS */}
@@ -207,8 +266,8 @@ innovation and challenging convention.
 
         <div className="section-title-area ltn__section-title-2--- text-center">
           {/* <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">features</h6> */}
-          <h1 className="section-title">Strengths</h1>
-          <p>Ultimately it is for others to judge our strengths, but we believe that these factors set us apart from our competitors</p>
+          <h1 className="section-title">STRENGTHS</h1>
+          <p>Ultimately it is for others to judge our strengths, but we believe that these factors set us apart from our competitors</p>
         </div>
         </ScrollAnimation>
       </div>
@@ -238,7 +297,7 @@ Above all, their loyalty and commitment to ISLAND for contracting.</p>
         <div className="ltn__feature-item ltn__feature-item-6">
         <div className="ltn__feature-info">
             <h4><a href="#">Our entrepreneurial attitude</a></h4>
-            <p>A strong appetite for investment and diversië cation to grow our business and increase revenue streams.<br/><br/>
+            <p>A strong appetite for investment and diversication to grow our business and increase revenue streams.<br/><br/>
 </p>
           </div>
         </div>
@@ -269,13 +328,13 @@ clients as an investor and a contractor.  e ability to self perform and to di
 
 {/* SAFTEY */}
 
-<div className="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-65" data-bs-bg="img/new/saftey.jpg" id="saftey">
+<div className="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-25 " data-bs-bg="img/new/saftey.jpg" id="saftey">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
         <div className="section-title-area ltn__section-title-2--- text-center---">
           <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">HEALTH, SAFETY & ENVIRONMENT MANAGEMENT</h6>
-          <h1 className="section-title white-color">See How We Provide <br />Saftey</h1>
+          <h1 className="section-title white-color">SEE HOW WE PROVIDE <br />SAFTEY</h1>
         </div>
       </div>
     </div>
@@ -301,7 +360,7 @@ and OHSAS 18001) into the company’s business and projects.
             
           <p> 
             Ensuring a safe and healthy environment for our employees, contractors, 
-clients and the wider public is our top priority. ISLAND maintains a continuous improvement culture where health, safety and environmental requirements are integrated into the business policy, philosophy and procedures. We 
+clients and the wider public is our top priority. ISLAND maintains a continuous improvement culture where health, safety and environmental requirenments are integrated into the business policy, philosophy and procedures. We 
 set targets and objectives, and monitor our performance through key point 
 indicators (KPIs), audit and inspection to ensure compliance.
 </p>
@@ -347,16 +406,18 @@ part of our policies, philosophy and procedures.
 </div>
 
 {/* PROJECTS */}
-<div className="ltn__banner-area pt-120" id="projects">
+<div className="ltn__banner-area" id="projects">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
         <div className="section-title-area ltn__section-title-2--- text-center">
           <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">Business Divisions</h6>
-          <h1 className="section-title">Projects</h1>
+          <h1 className="section-title">PROJECTS</h1>
         </div>
       </div>
     </div>
+    <ScrollAnimation animateIn="fadeInLeft" delay={300}>
+
     <div className="row">
   {this.state.categories.map(category => (
     <div className="col-lg-4 col-md-6" key={category.id}>
@@ -416,20 +477,22 @@ part of our policies, philosophy and procedures.
         </div>
       </div> */}
     </div>
+    </ScrollAnimation>
   </div>
 </div>
 
 {/* NEWS */}
-<div className="ltn__blog-area pt-90 pb-70" id="news">
+<div className="ltn__blog-area pt-90 pb-70 section-bg-1" id="news">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
         <div className="section-title-area ltn__section-title-2--- text-center">
-          <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">News &amp; Blogs</h6>
-          <h1 className="section-title">Leatest News Feeds</h1>
+          <h6 className="section-subtitle section-subtitle-2">News &amp; Blogs</h6>
+          <h1 className="section-title">LEATEST NEWS FEEDS</h1>
         </div>
       </div>
     </div>
+    <ScrollAnimation animateIn="fadeInLeft" delay={300}>
     <div className="row  ltn__blog-slider-one-active slick-arrow-1 ltn__blog-item-3-normal">
       {/* Blog Item */}
       <div className="col-lg-12">
@@ -556,6 +619,7 @@ part of our policies, philosophy and procedures.
         </div>
       </div>
     </div>
+    </ScrollAnimation>
   </div>
 </div>
 
@@ -565,7 +629,7 @@ part of our policies, philosophy and procedures.
   <div className="container">
   <div className="row">
     <ScrollAnimation animateIn="fadeIn">
-      <div className="col-lg-12">
+      <div className="col-lg-12 pt-4">
         <div className="section-title-area ltn__section-title-2--- text-center---">
           {/* <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">Upcoming Projects</h6> */}
           <h1 className="section-title text-center black-color">Clients</h1>

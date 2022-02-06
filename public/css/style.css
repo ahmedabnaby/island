@@ -68,7 +68,10 @@ font-family: 'Nunito Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
 /* Stardos+Stencil */
-@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap'); */
+
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* ====================================================
     Gutter Code 
@@ -223,10 +226,10 @@ font-family: 'Poppins', sans-serif;
   --ltn__paragraph-color: #5C727D;
   /* --ltn__heading-font: 'Poppins', sans-serif;
   --ltn__body-font: 'Nunito Sans', sans-serif; */
-  --ltn__heading-font: 'Stardos Stencil', cursive;
-  --ltn__body-font: 'Stardos Stencil', cursive;
+  --ltn__heading-font: 'Oswald', sans-serif;
+  /* --ltn__body-font: 'Stardos Stencil', cursive; */
+  --ltn__body-font: 'Oswald', sans-serif;
   /* font-family: 'Stardos Stencil', cursive; */
-
   /* Footer ACD2D8 8CB2B2  */
   --ltn__color-1: #8cb2b2;
   --ltn__color-2: #ACD2D8;
@@ -508,7 +511,10 @@ ol li {
   .section-bg-6 .ltn__separate-line .separate-icon,
   .section-bg-7 .ltn__separate-line .separate-icon {
     background-color: var(--black-2); }
-
+.bg_grey
+{
+  background-color: rgb(243, 240, 240);
+}
 .section-bg-3 {
   position: relative; }
   .section-bg-3:before {
@@ -5219,8 +5225,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 ---------------------------------------- */
 .ltn__header-4 .ltn__header-middle-area,
 .ltn__header-5 .ltn__header-middle-area {
-  padding-top: 22px;
-  padding-bottom: 22px; }
+  padding-top: 12px;
+  padding-bottom: 12px; }
 
 .ltn__header-4 .ltn__header-top-area {
   border-color: var(--border-color-3); }
@@ -6137,7 +6143,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .slide-title {
   font-size: 46px;
-  font-weight: 700; }
+  font-weight: 500; }
 
 /* Slider Animation Start */
 .ltn__slide-animation {
@@ -9122,7 +9128,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     margin-bottom: 5px; }
   .ltn__feature-item-3 .ltn__feature-icon {
     margin: 0px 20px 0 0;
-    font-size: 50px;
+    font-size: 20px;
     color: var(--ltn__secondary-color);
     line-height: 1.5; }
   .ltn__feature-item-3::before {
@@ -10711,7 +10717,14 @@ blockquote {
     background-color: var(--ltn__primary-color);
     opacity: 0.3; }
   .ltn__banner-style-4:hover::before {
-    opacity: 0.15; }
+    opacity: 0.15; 
+}
+.bg-image:hover, .ltn__banner-style-4:hover::before
+{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 /* ----------------------------------------------------
     Team Area
@@ -11918,6 +11931,10 @@ input.cart-plus-minus-box {
 
 .about-us-info-wrap {
   position: relative; }
+  .about-us-info-wrap p
+  {
+    margin-bottom: 1rem !important;
+  }
   .about-us-info-wrap .btn-wrapper {
     margin-top: 40px; }
   .about-us-info-wrap hr {
