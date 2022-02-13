@@ -39,6 +39,27 @@
 {
     background-color: var(--black-2) !important;
 }
+@media only screen and (max-width:1199px) {
+    .ltn__slide-animation {
+        position: relative;
+        z-index: 9;
+        left: 25% !important; 
+    }
+}
+@media only screen and (max-width:1199px) {
+    .ltn__slide-animation {
+        position: relative;
+        z-index: 9;
+        left: 25% !important; 
+    }
+}
+@media only screen and (max-width:991px) {
+    .ltn__slide-animation {
+        position: relative;
+        z-index: 9;
+        left: 5% !important; 
+    }
+}
 @media only screen and (max-width:767px) {
     .dark-bg
     {
