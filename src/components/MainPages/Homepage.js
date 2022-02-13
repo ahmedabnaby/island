@@ -318,7 +318,7 @@ understanding of their needs throughout the project cycle.</p>
         <div className="ltn__feature-info">
             <h4><a href="#">Our investment capacity</a></h4>
             <p>Financial resources that allow us to partner with 
-clients as an investor and a contractor.  e ability to self perform and to diversify into new industries.<br></br> <br/></p>
+clients as an investor and a contractor. The ability to self perform and to diversify into new industries.<br></br> <br/></p>
           </div>
         </div>
       </div>
