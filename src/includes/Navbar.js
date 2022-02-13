@@ -10,7 +10,7 @@ function Navbar() {
           <div className="site-logo-wrap">
           <a href="#">
             <div className="site-logo">
-              <img src="img/new/logo1.png" alt="Logo"/>
+              <img src="img/new/edited-logo.png" alt="Logo"/>
             </div>
             </a>
           </div>

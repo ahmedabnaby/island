@@ -11,8 +11,8 @@ class Homepage extends Component {
   }
   async componentDidMount() {
     try {
-      // const res = await fetch('http://127.0.0.1:8000/api/categories/');
-      const res = await fetch('https://islandd-backend.herokuapp.com/api/categories/');
+      const res = await fetch('http://127.0.0.1:8000/api/categories/');
+      // const res = await fetch('https://islandd-backend.herokuapp.com/api/categories/');
       const categories = await res.json();
       console.log(categories);
       this.setState({

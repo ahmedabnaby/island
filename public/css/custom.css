@@ -1,3 +1,7 @@
+.site-logo img
+{
+    width: 190px;
+}
 .AboutUS p
 {
     color: rgb(219, 234, 248);
@@ -61,6 +65,11 @@
     }
 }
 @media only screen and (max-width:767px) {
+    .site-logo img
+    {
+        width: 165px;
+        margin-left: 5px;
+    }
     .dark-bg
     {
         background-color: rgba(0, 0, 0, 0.774) !important;
