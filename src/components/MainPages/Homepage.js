@@ -11,6 +11,7 @@ class Homepage extends Component {
   }
   async componentDidMount() {
     try {
+      // const res = await fetch('http://127.0.0.1:8000/api/categories/');
       const res = await fetch('https://islandd-backend.herokuapp.com/api/categories/');
       const categories = await res.json();
       console.log(categories);
@@ -431,51 +432,6 @@ part of our policies, philosophy and procedures.
       </div>
   ))
   }
-  {/* <div className="col-lg-4 col-md-6">
-        <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="img/gallery/3.jpg">                        
-          <div className="ltn__banner-info">
-            <h3><a href="shop.html">  Administrative & Commercial</a></h3>
-            <p> • Office buildings, Showrooms and Banks</p>
-            <mark> 13 Listings</mark>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4 col-md-6">
-        <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="img/gallery/3.jpg">                        
-          <div className="ltn__banner-info">
-            <h3><a href="shop.html">  Hospitals</a></h3>
-            <p> • Health care buildings</p>
-            <mark> 13 Listings</mark>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4 col-md-6">
-        <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="img/gallery/7.jpg">                        
-          <div className="ltn__banner-info">
-            <h3><a href="shop.html">  Hospitals</a></h3>
-            <p>• Health care buildings</p>
-            <mark> 13 Listings</mark>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4 col-md-6">
-        <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="img/gallery/8.jpg">                        
-          <div className="ltn__banner-info">
-            <h3><a href="shop.html">  Tourism</a></h3>
-            <p> • Hotels and Resorts</p>
-            <mark> 13 Listings</mark>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4 col-md-6">
-        <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image" data-bs-bg="img/gallery/9.jpg">                        
-          <div className="ltn__banner-info">
-            <h3><a href="shop.html">  Transportation & Community</a></h3>
-            <p> Great Deals Available</p>
-            <mark> 13 Listings</mark>
-          </div>
-        </div>
-      </div> */}
     </div>
     </ScrollAnimation>
   </div>
