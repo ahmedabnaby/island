@@ -479,7 +479,7 @@ part of our policies, philosophy and procedures.
     <div className="col-lg-4 col-md-6" key={category.id}>
         <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image-1" style={{backgroundImage: `url(${category.image})`}}>                        
           <div className="ltn__banner-info">
-            <h3><a href="shop.html">  {category.title}</a></h3>
+            <h3><a href="#">  {category.title}</a></h3>
             <p> • {category.description}</p>
             <mark> 13 Listings</mark>
           </div>
@@ -509,7 +509,7 @@ part of our policies, philosophy and procedures.
       <div className="col-lg-12">
         <div className="ltn__blog-item ltn__blog-item-3">
           <div className="ltn__blog-img">
-            <a href="blog-details.html"><img src="img/blog/1.jpg" alt="#" /></a>
+            <a href="#"><img src="img/blog/1.jpg" alt="#" /></a>
           </div>
           <div className="ltn__blog-brief">
             <div className="ltn__blog-meta">
@@ -522,7 +522,7 @@ part of our policies, philosophy and procedures.
                 </li>
               </ul>
             </div>
-            <h3 className="ltn__blog-title"><a href="blog-details.html">10 Brilliant Ways To Decorate Your Home</a></h3>
+            <h3 className="ltn__blog-title"><a href="#">10 Brilliant Ways To Decorate Your Home</a></h3>
             <div className="ltn__blog-meta-btn">
               <div className="ltn__blog-meta">
                 <ul>
@@ -530,7 +530,7 @@ part of our policies, philosophy and procedures.
                 </ul>
               </div>
               <div className="ltn__blog-btn">
-                <a href="blog-details.html">Read more</a>
+                <a href="#">Read more</a>
               </div>
             </div>
           </div>
@@ -540,7 +540,7 @@ part of our policies, philosophy and procedures.
       <div className="col-lg-12">
         <div className="ltn__blog-item ltn__blog-item-3">
           <div className="ltn__blog-img">
-            <a href="blog-details.html"><img src="img/blog/2.jpg" alt="#" /></a>
+            <a href="#"><img src="img/blog/2.jpg" alt="#" /></a>
           </div>
           <div className="ltn__blog-brief">
             <div className="ltn__blog-meta">
@@ -553,7 +553,7 @@ part of our policies, philosophy and procedures.
                 </li>
               </ul>
             </div>
-            <h3 className="ltn__blog-title"><a href="blog-details.html">The Most Inspiring Interior Design Of 2021</a></h3>
+            <h3 className="ltn__blog-title"><a href="#">The Most Inspiring Interior Design Of 2021</a></h3>
             <div className="ltn__blog-meta-btn">
               <div className="ltn__blog-meta">
                 <ul>
@@ -561,7 +561,7 @@ part of our policies, philosophy and procedures.
                 </ul>
               </div>
               <div className="ltn__blog-btn">
-                <a href="blog-details.html">Read more</a>
+                <a href="#">Read more</a>
               </div>
             </div>
           </div>
@@ -571,7 +571,7 @@ part of our policies, philosophy and procedures.
       <div className="col-lg-12">
         <div className="ltn__blog-item ltn__blog-item-3">
           <div className="ltn__blog-img">
-            <a href="blog-details.html"><img src="img/blog/3.jpg" alt="#" /></a>
+            <a href="#"><img src="img/blog/3.jpg" alt="#" /></a>
           </div>
           <div className="ltn__blog-brief">
             <div className="ltn__blog-meta">
@@ -584,7 +584,7 @@ part of our policies, philosophy and procedures.
                 </li>
               </ul>
             </div>
-            <h3 className="ltn__blog-title"><a href="blog-details.html">Recent Commercial Real Estate Transactions</a></h3>
+            <h3 className="ltn__blog-title"><a href="#">Recent Commercial Real Estate Transactions</a></h3>
             <div className="ltn__blog-meta-btn">
               <div className="ltn__blog-meta">
                 <ul>
@@ -592,7 +592,7 @@ part of our policies, philosophy and procedures.
                 </ul>
               </div>
               <div className="ltn__blog-btn">
-                <a href="blog-details.html">Read more</a>
+                <a href="#">Read more</a>
               </div>
             </div>
           </div>
@@ -602,7 +602,7 @@ part of our policies, philosophy and procedures.
       <div className="col-lg-12">
         <div className="ltn__blog-item ltn__blog-item-3">
           <div className="ltn__blog-img">
-            <a href="blog-details.html"><img src="img/blog/4.jpg" alt="#" /></a>
+            <a href="#"><img src="img/blog/4.jpg" alt="#" /></a>
           </div>
           <div className="ltn__blog-brief">
             <div className="ltn__blog-meta">
@@ -615,7 +615,7 @@ part of our policies, philosophy and procedures.
                 </li>
               </ul>
             </div>
-            <h3 className="ltn__blog-title"><a href="blog-details.html">Renovating a Living Room? Experts Share Their Secrets</a></h3>
+            <h3 className="ltn__blog-title"><a href="#">Renovating a Living Room? Experts Share Their Secrets</a></h3>
             <div className="ltn__blog-meta-btn">
               <div className="ltn__blog-meta">
                 <ul>
@@ -623,7 +623,7 @@ part of our policies, philosophy and procedures.
                 </ul>
               </div>
               <div className="ltn__blog-btn">
-                <a href="blog-details.html">Read more</a>
+                <a href="#">Read more</a>
               </div>
             </div>
           </div>
