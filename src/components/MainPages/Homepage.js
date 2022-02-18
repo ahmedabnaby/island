@@ -55,7 +55,7 @@ renderItems = () => {
         <div className="col-lg-12 align-self-center">
           <div className="slide-item-info">
             <div className="slide-item-info-inner ltn__slide-animation">
-              <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6>
+              {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
               <h1 className="slide-title animated ">THE CONSTRUCTION YOU COUNT ON</h1>
               <div className="slide-brief animated">
                 <p>Has accumulated a wide and diversed experience over the years.</p>
@@ -78,7 +78,7 @@ renderItems = () => {
         <div className="col-lg-12 align-self-center">
           <div className="slide-item-info">
             <div className="slide-item-info-inner ltn__slide-animation">
-              <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6>
+              {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
               <h1 className="slide-title animated ">The Construction You Count On</h1>
               <div className="slide-brief animated">
                 <p>Has accumulated a wide and diversed experience over the years.</p>
@@ -100,7 +100,63 @@ renderItems = () => {
 
 {/* ABOUT */}
 
-<div className="ltn__about-us-area pt-115 pb-100 " id="about">
+<div className="ltn__about-us-area pt-155 pb-155 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/cco.jpg" id="about">
+  <div className="container">
+    <div className="row">
+      {/* <div className="col-lg-6 align-self-center">
+      <ScrollAnimation animateIn="fadeInLeft">
+        <div className="about-us-img-wrap about-img-left">
+          <img src="img/new/covers.jpg" alt="About Us Image" />
+        </div>
+        </ScrollAnimation>
+      </div> */}
+      <div className="col-lg-12 align-self-center text-center">
+        <div className="about-us-info-wrap text-color-white">
+        <ScrollAnimation animateIn='bounce'
+          initiallyVisible={true}
+          animateOnce={true}>
+          <div>
+            {/* <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6> */}
+            <h1 className="section-title">ABOUT US</h1>
+            <p>ISLAND is committed to provide its clients with a product meeting contractual requirements
+               and clients’ needs at fair cost.</p>
+          </div>  
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={100}>
+          <div className="ltn__feature-item ltn__feature-item-3">
+            <div className="ltn__feature-icon d-mobile-none">
+              <span><i className="icon-award" /></span>
+            </div>
+            <div className="ltn__feature-info">
+              <h4><a href="#">MISSION</a></h4>
+              <p><i className="icon-done" /> &nbsp; We will work to deliver exceptional value for our shareholders by following a coherent and considered strategy.</p>
+              <p><i className="icon-done" /> &nbsp; Targeting large, complex construction projects in foreigners’ markets, working in partnership with local and global leaders and maintaining our commitment to quality and safety.</p>
+              <p><i className="icon-done" /> &nbsp; Promoting an environment of competitiveness amongst our employees to 
+promote their sense of leadership and team working</p>
+            </div>
+          </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={100}>
+          <div className="ltn__feature-item ltn__feature-item-3">
+            <div className="ltn__feature-icon d-mobile-none">
+              <span><i className="flaticon-user" /></span>
+            </div>
+            <div className="ltn__feature-info">
+              <h4><a href="#">VISION</a></h4>
+              <p><i className="icon-done" /> &nbsp; We are committed to delivering quality work and products, safely and on schedule.</p>
+              <p><i className="icon-done" /> &nbsp; We aspire within the next five years to be recognized as the contractor of choice for large, complex and demanding construction projects in the Middle East as Egypt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+              <p><i className="icon-done" /> &nbsp; A company that our clients want work with, our customers can rely on through high quality & healthy working environment and our employees are proud to work for.</p>
+            </div>
+          </div>
+          </ScrollAnimation>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* <div className="ltn__about-us-area pt-115 pb-100 " id="about">
   <div className="container">
     <div className="row">
       <div className="col-lg-6 align-self-center">
@@ -116,7 +172,6 @@ renderItems = () => {
           initiallyVisible={true}
           animateOnce={true}>
           <div className="section-title-area ltn__section-title-2--- mb-30">
-            {/* <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6> */}
             <h1 className="section-title">ABOUT US</h1>
             <p>ISLAND is committed to provide its clients with a product meeting contractual requirements
                and clients’ needs at fair cost.</p>
@@ -159,7 +214,7 @@ proud to work for.</p>
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
 
 {/* <div className="ltn__about-us-area section-bg-1 pt-120 pb-90" id="about">
@@ -329,7 +384,7 @@ clients as an investor and a contractor. The ability to self perform and to dive
 
 {/* SAFTEY */}
 
-<div className="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-25 " data-bs-bg="img/new/saftey.jpg" id="saftey">
+<div className="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-25 " data-bs-bg="img/new/saftey.jpg" id="safety">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">

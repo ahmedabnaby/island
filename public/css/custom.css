@@ -43,12 +43,28 @@
 {
     background-color: var(--black-2) !important;
 }
-@media only screen and (max-width:1199px) {
-    .ltn__slide-animation {
-        position: relative;
-        z-index: 9;
-        left: 25% !important; 
-    }
+.iso-img
+{
+    position: relative;
+    left: 17% !important;
+}
+.ltn__top-bar-menu li a
+{
+    color: var(--ltn__secondary-color);
+}
+.ltn__top-bar-menu li a:hover
+{
+    color: rgba(0, 0, 0, 0.445);
+}
+.ltn__main-menu li > a:hover
+{
+    color: rgba(0, 0, 0, 0.445) !important;
+}
+.ltn__feature-item-6:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 @media only screen and (max-width:1199px) {
     .ltn__slide-animation {
@@ -63,6 +79,14 @@
         z-index: 9;
         left: 5% !important; 
     }
+    .iso-img
+    {
+        position: relative;
+        left: 0% !important;
+    }
+    .modal-content {
+        border-radius: 0;
+      top: 5vh !important; }
 }
 @media only screen and (max-width:767px) {
     .site-logo img
@@ -100,5 +124,25 @@
     .d-mobile-none
     {
         display: none !important;
+    }
+    .ltn__feature-item-6
+    {
+        background-color: var(--ltn__secondary-color);
+    }
+    .ltn__feature-info h4 a
+    {
+        color: #fff !important;
+    }
+    .ltn__feature-item-6 .ltn__feature-info p
+    {
+        color: lightgray;
+    }
+    .ltn__feature-item-6:hover
+    {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        opacity: 0.6;
+        background-color: #000;
     }
 }

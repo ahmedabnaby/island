@@ -3,6 +3,62 @@ function Navbar() {
       <div>
 <header className="ltn__header-area ltn__header-5 ltn__header-logo-and-mobile-menu-in-mobile ltn__header-logo-and-mobile-menu ltn__header-transparent--- gradient-color-4---">
   {/* ltn__header-middle-area start */}
+  <div className="ltn__header-top-area section-bg-8 top-area-color-white---">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-7">
+        <div className="ltn__top-bar-menu">
+          <ul>
+            <li><a href="mailto:info@islandeg.com?Subject=Greetings%20to%20you"><i className="icon-mail" /> info@islandeg.com</a></li>
+            <li><a href="https://www.google.com/maps/dir/30.047652,31.4570441/Island+Agencies+%26+Services,+26+Aden+St,+Giza+Governorate/@30.029835,31.1855104,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x14584136222ead29:0x60e0447f0acde3fa!2m2!1d31.1949225!2d30.0518536"><i className="icon-placeholder" /> 26 Aden St., Shehab St. Mohandessin - Giza</a></li>
+          </ul>
+        </div>
+      </div>
+      <div className="col-md-5">
+        <div className="top-bar-right text-end">
+          <div className="ltn__top-bar-menu">
+            <ul>
+              {/* <li className="d-none">
+                <div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
+                  <ul>
+                    <li><a href="#" className="dropdown-toggle"><span className="active-currency">English</span></a>
+                      <ul>
+                        <li><a href="#">Arabic</a></li>
+                        <li><a href="#">Bengali</a></li>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Hindi</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li> */}
+              <li>
+                {/* ltn__social-media */}
+                {/* <div className="ltn__social-media">
+                  <ul>
+                    <li><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
+                    <li><a href="#" title="Twitter"><i className="fab fa-twitter" /></a></li>
+                    <li><a href="#" title="Instagram"><i className="fab fa-instagram" /></a></li>
+                    <li><a href="#" title="Dribbble"><i className="fab fa-dribbble" /></a></li>
+                  </ul>
+                </div> */}
+              </li>
+              <li>
+                {/* header-top-btn */}
+                <div className="header-top-btn">
+                  <a href="#contact">Contact Us</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   <div className="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-white">
     <div className="container">
       <div className="row">
@@ -40,21 +96,21 @@ function Navbar() {
                   <ul className="nav-sub-menu">
                       <div className="row"> 
                       <div className="col">
-                      <li><a href="#strength">ISO</a></li>
-                      <img src="img/new/ISO.png" />
+                      <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#iso">ISO</a></li>
+                      <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#iso"><img src="img/new/ISO.png" /></a>
                       </div>
-                      {/* <div className="col">
-                      <li><a href="#">Quality Control</a></li>
-                      <img src="img/new/4.jpg" />
-                      </div> */}
+                      <div className="col">
+                      <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quality-control">Quality Control</a></li>
+                      <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quality-control"><img src="img/new/quality.png" /></a>
+                      </div>
                     </div>
                     </ul></li>
 
-                  <li><a href="#saftey">Saftey</a>
+                  <li><a href="#safety">Safety</a>
                     {/* <ul className="nav-sub-menu">
                       <div className="row"> 
                       <div className="col">
-                      <li><a href="#">Saftey</a></li>
+                      <li><a href="#">Safety</a></li>
                       <img src="img/new/1.jpg" />
                       </div>
                       <div className="col">
@@ -95,39 +151,34 @@ function Navbar() {
     <div className="ltn__utilize-menu-inner ltn__scrollbar">
       <div className="ltn__utilize-menu-head">
         <div className="site-logo">
-          <a href="index.html"><img src="img/new/edited-logo.png" alt="Logo" /></a>
+          <a href="#"><img src="img/new/edited-logo.png" alt="Logo" /></a>
         </div>
         <button className="ltn__utilize-close">×</button>
       </div>
       <div className="ltn__utilize-menu">
         <ul>
           <li><a href="#">Home</a>
-            {/* <ul className="sub-menu">
-              <li><a href="index.html">Home Style 01</a></li>
-              <li><a href="index-2.html">Home Style 02</a></li>
-              <li><a href="index-3.html">Home Style 03</a></li>
-              <li><a href="index-4.html">Home Style 04</a></li>
-              <li><a href="index-5.html">Home Style 05  <span className="menu-item-badge">video</span></a></li>
-              <li><a href="index-6.html">Home Style 06</a></li>
-              <li><a href="index-7.html">Home Style 07</a></li>
-              <li><a href="index-8.html">Home Style 08</a></li>
-              <li><a href="index-9.html">Home Style 09</a></li>
-              <li><a href="index-10.html">Home Style 10 <span className="menu-item-badge">Map</span></a></li>
-              <li><a href="index-11.html">Home Style 11</a></li>
-            </ul> */}
           </li>
           <li><a href="#about">About</a>
+          <ul className="sub-menu">
+              <li><a href="#about">Mission</a></li>
+              <li><a href="#about">Vision</a></li>
+            </ul>
           </li>
           
-          <li><a href="#strengths">Strength</a>
+          <li><a href="#strength">Strengths</a>
+          <ul className="sub-menu">
+              <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#iso">ISO</a></li>
+              <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quality-control">Quality Control</a></li>
+            </ul>
           </li>
-          <li><a href="#saftey">Health</a>
+          <li><a href="#safety">Health</a>
           </li>
-          <li><a href="#clients">Clients</a></li>
+          {/* <li><a href="#clients">Clients</a></li> */}
 
           <li><a href="#projects">Projects</a></li>
 
-          <li><a href="#">News</a></li>
+          <li><a href="#news">News</a></li>
 
           <li><a href="#">Careers</a></li>
           
@@ -145,6 +196,132 @@ function Navbar() {
   </div>
   {/* Utilize Mobile Menu End */}
   <div className="ltn__utilize-overlay" />
+
+  <div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="quality-control" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    <h3>Quality Control</h3>
+                    {/* <div className="product-price">
+                      <span>$149.00</span>
+                      <del>$165.00</del>
+                    </div> */}
+                    <div className="modal-product-meta ltn__product-details-menu-1">
+                      <p>•ISLAND adopts an updated 
+                          QA/QC system conforming to 
+                          both local and international 
+                          standards.
+                          </p>
+                          <p>
+                          •ISLAND implements an 
+                          advanced management 
+                          system and planning techniques to optimize the usage 
+                          of time and resource
+                          </p>
+                          <p>
+                          •The management of Island Contracting CO. has a strict commitment to 
+                            customer satisfaction through distinguished quality and punctual delivery of 
+                            its projects.
+                          </p>
+                          <p>
+                          •All jobs are subject to comply with the local and international relevant standards. 
+                          Projects programs consider and refer to the latest publications of standards,
+                           statutory and requirements in accordance with the project specifications as stipulated by the customer.
+                          </p>
+                          <p>
+                          •All employees observe and practice the methods and procedures detailed in 
+                          the company’s established quality and safety systems, and ensure to provide 
+                          cost eff ective quality performance with timely completion of contracts.
+                          </p>
+                          <p>
+                          •The organization encourages employees to develop new skills as technology 
+                            change and improve work practices to ensure continual improvement.
+                            The company engraves safety practices in everyone’s objectives, as it’s a compound responsibility by 
+                            all employees to achieve the standards set by the business.
+                          </p>
+                          <p>•Our Quality Policy is implemented and understood by all levels through the 
+                              Quality Procedures, operating and maintaining Island Contracting CO.
+                              Quality System in compliance with ISO 9001:2000 requirements.
+                          </p>
+
+                      {/* <ul>
+                        <li>
+                          <strong>Categories:</strong> 
+                          <span>
+                            <a href="#">Parts</a>
+                            <a href="#">Car</a>
+                            <a href="#">Seat</a>
+                            <a href="#">Cover</a>
+                          </span>
+                        </li>
+                      </ul> */}
+                    </div>
+                    <hr />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="iso" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12 iso-img">
+                  <div className="modal-product-info">
+                    <h3>ISO 9001:2008</h3>
+                    
+                     <img src="img/new/full-iso.png" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </div>
   );
 }
