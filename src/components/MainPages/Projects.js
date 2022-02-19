@@ -62,75 +62,80 @@ function Projects(){
             <div className="ltn__product-tab-content-inner ltn__product-grid-view">
               <div className="row">
                 {/* ltn__product-item */}
-                
-                {projects?.filter(project => project.category === parseInt(categoryId)).map((project)=>
-                <div className="col-lg-4 col-sm-6 col-12" key={project.id}>
-                        {/* {console.log("CATEGORY ID " + categoryId)} */}
-                        {/* {project.category === parseInt(categoryId) ?  */}
-                  <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
-                    <div className="product-img">
-                      <a href="product-details.html"><img src={project.image} alt="#" /></a>
-                      <div className="real-estate-agent">
-                        <div className="agent-img">
-                          <a href="team-details.html"><img src="img/blog/author.jpg" alt="#" /></a>
+                {projects?.filter(project => project.category === parseInt(categoryId)).length > 0 ? 
+                projects?.filter(project => project.category === parseInt(categoryId)).map((project)=>
+                        <div className="col-lg-4 col-sm-6 col-12" key={project.id}>
+                                {/* {console.log("CATEGORY ID " + categoryId)} */}
+                                {/* {project.category === parseInt(categoryId) ?  */}
+                          <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
+                            <div className="product-img">
+                              <a href="product-details.html"><img src={project.image} alt="#" /></a>
+                              <div className="real-estate-agent">
+                                <div className="agent-img">
+                                  <a href="team-details.html"><img src="img/blog/author.jpg" alt="#" /></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="product-info">
+                              <div className="product-badge">
+                                <ul>
+                                  <li className="sale-badg">For Rent</li>
+                                </ul>
+                              </div>
+                              <h2 className="product-title"><a href="product-details.html">{project.title}</a></h2>
+                              <div className="product-img-location">
+                                <ul>
+                                  <li>
+                                    <a href="locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <ul className="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
+                                <li><span>3 </span>
+                                  Bedrooms
+                                </li>
+                                <li><span>2 </span>
+                                  Bathrooms
+                                </li>
+                                <li><span>3450 </span>
+                                  square Ft
+                                </li>
+                              </ul>
+                              <div className="product-hover-action">
+                                <ul>
+                                  <li>
+                                    <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
+                                      <i className="flaticon-expand" />
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
+                                      <i className="flaticon-heart-1" /></a>
+                                  </li>
+                                  <li>
+                                    <a href="product-details.html" title="Product Details">
+                                      <i className="flaticon-add" />
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div className="product-info-bottom">
+                              <div className="product-price">
+                                <span>$34,900<label>/Month</label></span>
+                              </div>
+                            </div>
+                          </div>
+                          {/* : 
+                          console.log('none')    
+                          } */}
                         </div>
-                      </div>
-                    </div>
-                    <div className="product-info">
-                      <div className="product-badge">
-                        <ul>
-                          <li className="sale-badg">For Rent</li>
-                        </ul>
-                      </div>
-                      <h2 className="product-title"><a href="product-details.html">{project.title}</a></h2>
-                      <div className="product-img-location">
-                        <ul>
-                          <li>
-                            <a href="locations.html"><i className="flaticon-pin" /> Belmont Gardens, Chicago</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <ul className="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                        <li><span>3 </span>
-                          Bedrooms
-                        </li>
-                        <li><span>2 </span>
-                          Bathrooms
-                        </li>
-                        <li><span>3450 </span>
-                          square Ft
-                        </li>
-                      </ul>
-                      <div className="product-hover-action">
-                        <ul>
-                          <li>
-                            <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
-                              <i className="flaticon-expand" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
-                              <i className="flaticon-heart-1" /></a>
-                          </li>
-                          <li>
-                            <a href="product-details.html" title="Product Details">
-                              <i className="flaticon-add" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="product-info-bottom">
-                      <div className="product-price">
-                        <span>$34,900<label>/Month</label></span>
-                      </div>
-                    </div>
-                  </div>
-                  {/* : 
-                  console.log('none')    
-                  } */}
-                </div>
-                )}
+                        )
+                
+                : 
+          <h1 className="page-title">No Projects Added.</h1>
+        }
+                
               </div>
             </div>
           </div>
@@ -212,7 +217,7 @@ function Projects(){
             </div>
           </div>
         </div>
-        <div className="ltn__pagination-area text-center">
+        {/* <div className="ltn__pagination-area text-center">
           <div className="ltn__pagination">
             <ul>
               <li><a href="#"><i className="fas fa-angle-double-left" /></a></li>
@@ -224,7 +229,7 @@ function Projects(){
               <li><a href="#"><i className="fas fa-angle-double-right" /></a></li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>

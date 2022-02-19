@@ -497,28 +497,19 @@ part of our policies, philosophy and procedures.
     <ScrollAnimation animateIn="fadeInLeft" delay={300}>
     <div className="row ltn__blog-item-3-normal">
       {/* Blog Item */}
-  {this.state.news.map(item => (
-    <div className="col">
+  {this.state.news?.map(item => (
+    <div className="col" key={item.id}>
             <div className="ltn__blog-item ltn__blog-item-3" key={item.id}>
           <div className="ltn__blog-img">
-            <a href="#"><img src="img/blog/1.jpg" alt="#" /></a>
+            <a href="#"><img src={item.image} alt="#" /></a>
           </div>
           <div className="ltn__blog-brief">
-            <div className="ltn__blog-meta">
-              <ul>
-                <li className="ltn__blog-author">
-                  {/* <a href="#"><i className="far fa-user" />by: Admin</a> */}
-                </li>
-                <li className="ltn__blog-tags">
-                  <a href="#"><i className="fas fa-tags" />Decorate</a>
-                </li>
-              </ul>
-            </div>
-            <h3 className="ltn__blog-title"><a href="#">10 Brilliant Ways To Decorate Your Home</a></h3>
+            
+            <h3 className="ltn__blog-title"><a href="#">{item.title}</a></h3>
             <div className="ltn__blog-meta-btn">
               <div className="ltn__blog-meta">
                 <ul>
-                  <li className="ltn__blog-date"><i className="far fa-calendar-alt" />June 24, 2021</li>
+                  <li className="ltn__blog-date"><i className="far fa-calendar-alt" />{item.date}</li>
                 </ul>
               </div>
               <div className="ltn__blog-btn">
