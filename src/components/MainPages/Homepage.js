@@ -1,7 +1,7 @@
 // import Slider from "../../components/Slider"
 import React,{Component} from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import axios from "axios";
+
 class Homepage extends Component {
   constructor(props) {
     super(props);
@@ -11,8 +11,8 @@ class Homepage extends Component {
   }
   async componentDidMount() {
     try {
-      // const res = await fetch('http://127.0.0.1:8000/api/categories/');
-      const res = await fetch('https://islandd-backend.herokuapp.com/api/categories/');
+      const res = await fetch('http://127.0.0.1:8000/api/categories/');
+      // const res = await fetch('https://islandd-backend.herokuapp.com/api/categories/');
       const categories = await res.json();
       console.log(categories);
       this.setState({
@@ -22,22 +22,6 @@ class Homepage extends Component {
       console.log(e);
   }
 }
-
-renderItems = () => {
-  // const { viewCompleted } = this.state;
-  const newItems = this.state.categories;
-  return newItems.map(category => (
-    <li 
-      key={category.id}
-      className="list-group-item d-flex justify-content-between align-items-center"
-    >
-      <span>
-          {category.title}
-          {category.description}
-        </span>
-    </li>
-  ));
-};
 
   render() {
     {const categories = this.state.categories;}
