@@ -7,16 +7,22 @@ class Homepage extends Component {
     super(props);
     this.state = {
       categories: [],
+      news: [],
     };
   }
   async componentDidMount() {
     try {
       // const res = await fetch('http://127.0.0.1:8000/api/categories/');
+      // const res_news = await fetch('http://127.0.0.1:8000/api/news/');
       const res = await fetch('https://islandd-backend.herokuapp.com/api/categories/');
+      const res_news = await fetch('https://islandd-backend.herokuapp.com/api/news/');
       const categories = await res.json();
+      const news = await res_news.json();
       console.log(categories);
+      console.log(news);
       this.setState({
-        categories
+        categories,
+        news
       });
     } catch (e) {
       console.log(e);
@@ -25,6 +31,7 @@ class Homepage extends Component {
 
   render() {
     {const categories = this.state.categories;}
+    {const news = this.state.news;}
     return (  <div>
     {/* HOME */}
     <div className="ltn__slider-area ltn__slider-3 text-center section-bg-2">
@@ -488,10 +495,11 @@ part of our policies, philosophy and procedures.
       </div>
     </div>
     <ScrollAnimation animateIn="fadeInLeft" delay={300}>
-    <div className="row  ltn__blog-slider-one-active slick-arrow-1 ltn__blog-item-3-normal">
+    <div className="row ltn__blog-item-3-normal">
       {/* Blog Item */}
-      <div className="col-lg-12">
-        <div className="ltn__blog-item ltn__blog-item-3">
+  {this.state.news.map(item => (
+    <div className="col">
+            <div className="ltn__blog-item ltn__blog-item-3" key={item.id}>
           <div className="ltn__blog-img">
             <a href="#"><img src="img/blog/1.jpg" alt="#" /></a>
           </div>
@@ -520,99 +528,8 @@ part of our policies, philosophy and procedures.
           </div>
         </div>
       </div>
-      {/* Blog Item */}
-      <div className="col-lg-12">
-        <div className="ltn__blog-item ltn__blog-item-3">
-          <div className="ltn__blog-img">
-            <a href="#"><img src="img/blog/2.jpg" alt="#" /></a>
-          </div>
-          <div className="ltn__blog-brief">
-            <div className="ltn__blog-meta">
-              <ul>
-                <li className="ltn__blog-author">
-                  {/* <a href="#"><i className="far fa-user" />by: Admin</a> */}
-                </li>
-                <li className="ltn__blog-tags">
-                  <a href="#"><i className="fas fa-tags" />Interior</a>
-                </li>
-              </ul>
-            </div>
-            <h3 className="ltn__blog-title"><a href="#">The Most Inspiring Interior Design Of 2021</a></h3>
-            <div className="ltn__blog-meta-btn">
-              <div className="ltn__blog-meta">
-                <ul>
-                  <li className="ltn__blog-date"><i className="far fa-calendar-alt" />July 23, 2021</li>
-                </ul>
-              </div>
-              <div className="ltn__blog-btn">
-                <a href="#">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Blog Item */}
-      <div className="col-lg-12">
-        <div className="ltn__blog-item ltn__blog-item-3">
-          <div className="ltn__blog-img">
-            <a href="#"><img src="img/blog/3.jpg" alt="#" /></a>
-          </div>
-          <div className="ltn__blog-brief">
-            <div className="ltn__blog-meta">
-              <ul>
-                <li className="ltn__blog-author">
-                  {/* <a href="#"><i className="far fa-user" />by: Admin</a> */}
-                </li>
-                <li className="ltn__blog-tags">
-                  <a href="#"><i className="fas fa-tags" />Estate</a>
-                </li>
-              </ul>
-            </div>
-            <h3 className="ltn__blog-title"><a href="#">Recent Commercial Real Estate Transactions</a></h3>
-            <div className="ltn__blog-meta-btn">
-              <div className="ltn__blog-meta">
-                <ul>
-                  <li className="ltn__blog-date"><i className="far fa-calendar-alt" />May 22, 2021</li>
-                </ul>
-              </div>
-              <div className="ltn__blog-btn">
-                <a href="#">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Blog Item */}
-      <div className="col-lg-12">
-        <div className="ltn__blog-item ltn__blog-item-3">
-          <div className="ltn__blog-img">
-            <a href="#"><img src="img/blog/4.jpg" alt="#" /></a>
-          </div>
-          <div className="ltn__blog-brief">
-            <div className="ltn__blog-meta">
-              <ul>
-                <li className="ltn__blog-author">
-                  {/* <a href="#"><i className="far fa-user" />by: Admin</a> */}
-                </li>
-                <li className="ltn__blog-tags">
-                  <a href="#"><i className="fas fa-tags" />Room</a>
-                </li>
-              </ul>
-            </div>
-            <h3 className="ltn__blog-title"><a href="#">Renovating a Living Room? Experts Share Their Secrets</a></h3>
-            <div className="ltn__blog-meta-btn">
-              <div className="ltn__blog-meta">
-                <ul>
-                  <li className="ltn__blog-date"><i className="far fa-calendar-alt" />June 24, 2021</li>
-                </ul>
-              </div>
-              <div className="ltn__blog-btn">
-                <a href="#">Read more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      ))
+    }
     </div>
     </ScrollAnimation>
   </div>
