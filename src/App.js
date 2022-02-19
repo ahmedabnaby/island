@@ -1,5 +1,7 @@
 import Homepage from "./components/MainPages/Homepage";
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Projects from "./components/MainPages/Projects";
+import Page404 from "./components/MainPages/Page404";
+import {BrowserRouter as Router, Route, Routes, useParams} from 'react-router-dom';
 
 import Preloader from "./components/Preloader";
 import Navbar from "./includes/Navbar"
@@ -13,7 +15,8 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path='/' element={<Homepage/>} />
-          <Route path='/category/:id/' element={<Footer/>} />
+          <Route path='/category/:categoryId/' element={<Projects/>} />
+          <Route path='*' exact={true} element={<Page404/>} />
         </Routes>
       <Footer/>
     </Router>
