@@ -37,9 +37,31 @@ class Homepage extends Component {
     <div className="ltn__slider-area ltn__slider-3 text-center section-bg-2">
   <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
     {/* ltn__slide-item */}
+    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-50" data-bs-bg="img/new/33.JPG" id="home">
+  <div className="ltn__slide-item-inner  text-left">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12 align-self-center">
+          <div className="slide-item-info">
+            <div className="slide-item-info-inner ltn__slide-animation">
+              {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
+              <h1 className="slide-title animated ">THE CONSTRUCTION YOU COUNT ON</h1>
+              <div className="slide-brief animated">
+                <p>Has accumulated a wide and diversed experience over the years.</p>
+              </div>
+              <div className="btn-wrapper animated">
+                <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     {/* ltn__slide-item */}
-    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/new-1.jpg" id="home">
+    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-20" data-bs-bg="img/new/11.JPG" id="home">
   <div className="ltn__slide-item-inner  text-left">
     <div className="container">
       <div className="row">
@@ -62,7 +84,7 @@ class Homepage extends Component {
   </div>
 </div>
 {/* ltn__slide-item */}
-<div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/new-2.jpg">
+<div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-30" data-bs-bg="img/new/22.jpg">
   <div className="ltn__slide-item-inner  text-left">
     <div className="container">
       <div className="row">
@@ -304,15 +326,77 @@ innovation and challenging convention.
 </div> */}
 
 
+
 {/* STRENGTHS */}
-<div className="ltn__feature-area pt-90 pb-90 section-bg-1" id="strength">
+
+<div className="ltn__about-us-area pt-115 pb-100 section-bg-2" id="strength">
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-6 align-self-center">
+      <ScrollAnimation animateIn="fadeInLeft">
+        <div className="about-us-img-wrap about-img-left">
+          <img src="img/new/s1.jpg" alt="About Us Image" />
+        </div>
+        </ScrollAnimation>
+      </div>
+      <div className="col-lg-6 align-self-center">
+        <div className="about-us-info-wrap">
+        <ScrollAnimation animateIn='bounce'
+          initiallyVisible={true}
+          animateOnce={true}>
+          <div className="section-title-area ltn__section-title-2--- mb-30">
+            <h1 className="section-title">STRENGTHS</h1>
+            <p>Ultimately it is for others to judge our strengths, but we believe that these factors set us apart from our competitors.</p>
+          </div>  
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp">
+          <div className="ltn__feature-item ltn__feature-item-3">
+            <div className="ltn__feature-icon">
+              <span><i className="icon-award" /></span>
+            </div>
+            <div className="ltn__feature-info">
+              <h4><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#iso">ISO</a></h4>
+              <p> <i className="icon-done" />  &nbsp; To accomplish this mission, the General Management has set up a Quality System, operating in compliance with ISO 9001 standard. </p>
+            </div>
+          </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={100}>
+          <div className="ltn__feature-item ltn__feature-item-3">
+            <div className="ltn__feature-icon">
+              <span><i className="icon-pressure" /></span>
+            </div>
+            <div className="ltn__feature-info">
+              <h4><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quality-control">Quality Control</a></h4>
+              <p><i className="icon-done" /> &nbsp; ISLAND implements an 
+advanced management system and planning techniques to optimize the usage of time and resources.</p>
+            </div>
+          </div>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={100}>
+          <div className="ltn__feature-item ltn__feature-item-3">
+            <div className="ltn__feature-icon">
+              <span><i className="flaticon-hospital" /></span>
+            </div>
+            <div className="ltn__feature-info">
+              <h4><a href="#safety">Safety</a></h4>
+              <p><i className="icon-done" /> &nbsp; ISLAND’s commitment of honor holds the management responsible to the effective management of Health, Safety and Environment issues as an integral 
+part of our policies, philosophy and procedures.</p>
+            </div>
+          </div>
+          </ScrollAnimation>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/* <div className="ltn__feature-area pt-90 pb-90 section-bg-2" id="strength">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
       <ScrollAnimation animateIn="fadeInUp" delay={300}>
 
         <div className="section-title-area ltn__section-title-2--- text-center">
-          {/* <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">features</h6> */}
           <h1 className="section-title">STRENGTHS</h1>
           <p>Ultimately it is for others to judge our strengths, but we believe that these factors set us apart from our competitors</p>
         </div>
@@ -371,11 +455,11 @@ clients as an investor and a contractor. The ability to self perform and to dive
     </div>
     </ScrollAnimation>
   </div>
-</div>
+</div> */}
 
 {/* SAFTEY */}
 
-<div className="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-25 " data-bs-bg="img/new/saftey.jpg" id="safety">
+<div className="ltn__testimonial-area section-bg-2--- bg-image-top pt-115 pb-25 " data-bs-bg="img/new/saftey.jpg" id="safety">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
@@ -484,7 +568,7 @@ part of our policies, philosophy and procedures.
 </div>
 
 {/* NEWS */}
-<div className="ltn__blog-area pt-90 pb-70 section-bg-1" id="news">
+<div className="ltn__blog-area pt-90 pb-70 section-bg-2" id="news">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
@@ -498,7 +582,7 @@ part of our policies, philosophy and procedures.
     <div className="row ltn__blog-item-3-normal">
       {/* Blog Item */}
   {this.state.news?.map(item => (
-    <div className="col" key={item.id}>
+    <div className="col-md-3" key={item.id}>
             <div className="ltn__blog-item ltn__blog-item-3" key={item.id}>
           <div className="ltn__blog-img">
             <a href="#"><img src={item.image} alt="#" /></a>

@@ -143,7 +143,8 @@ function Projects(){
             <div className="ltn__product-tab-content-inner ltn__product-list-view">
               <div className="row">
                 {/* ltn__product-item */}
-                {projects?.filter(project => project.category === parseInt(categoryId)).map((project)=>
+                {projects?.filter(project => project.category === parseInt(categoryId)).length > 0 ? 
+                projects?.filter(project => project.category === parseInt(categoryId)).map((project)=>
 
                 <div className="col-lg-12">
                   <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
@@ -212,7 +213,11 @@ function Projects(){
                     </div>
                   </div>
                 </div>
-                )}
+                        )
+                : 
+          <h1 className="page-title">No Projects Added.</h1>
+        }
+                
               </div>
             </div>
           </div>

@@ -82,11 +82,15 @@ function Navbar() {
                       <div className="row"> 
                       <div className="col">
                       <li><a href="#about">Mission</a></li>
-                      {/* <img src="img/new/mision-vision.png" /> */}
                       </div>
                       <div className="col">
                       <li><a href="#about">Vision</a></li>
                       {/* <img src="img/new/4.jpg" /> */}
+                      </div>
+                      <div className="row">
+                        <div className="col">
+                          <img src="img/new/mision-vision.png" />
+                        </div>
                       </div>
                     </div>
                     </ul>
