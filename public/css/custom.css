@@ -166,4 +166,22 @@
         opacity: 0.6;
         background-color: #000;
     }
+    .logo-slider
+    {
+        position: relative;
+        left: 0%;
+        margin-bottom: 0px;
+    }
+    .mission-img
+    {
+        left: 0;
+    }
+    .vision-img
+    {
+        left: 0;
+    }
+    .values-img
+    {
+        left: 0;
+    }
 }
