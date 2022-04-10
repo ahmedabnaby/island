@@ -45,6 +45,7 @@ function Navbar() {
                   </ul>
                 </div> */}
               </li>
+            <li><a href="files/Website-portfolio-island-2022.pdf" download={true}><i className="icon-down-arrow" /> Download our portfolio</a></li>
               <li>
                 {/* header-top-btn */}
                 <div className="header-top-btn">
@@ -77,7 +78,7 @@ function Navbar() {
               <div className="ltn__main-menu">
                 <ul>
                   <li><a href="#home">Home</a></li>
-                  <li><a href="#about">About</a>
+                  <li><a href="#about">About us</a>
                   <ul className="nav-sub-menu">
                       <div className="row"> 
                       <div className="col">
@@ -96,8 +97,8 @@ function Navbar() {
                     </ul>
                     </li>
 
-                  <li><a href="#strength">Strengths</a>
-                  <ul className="nav-sub-menu">
+                  <li><a href="#quality-controls">Quality Control</a>
+                  {/* <ul className="nav-sub-menu">
                       <div className="row"> 
                       <div className="col">
                       <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#iso">ISO</a></li>
@@ -108,7 +109,8 @@ function Navbar() {
                       <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quality-control"><img src="img/new/quality.png" /></a>
                       </div>
                     </div>
-                    </ul></li>
+                    </ul>*/}
+                    </li> 
 
                   <li><a href="#safety">Safety</a>
                     {/* <ul className="nav-sub-menu">
@@ -127,7 +129,7 @@ function Navbar() {
                   <li><a href="#projects">Projects</a></li>
                   <li><a href="#news">News</a></li>
                   <li><a href="#clients">Clients</a></li>
-                  <li><a href="#careers">Careers</a></li>
+                  <li><a href="files/Job-Application-Form.docx" download={true}>Careers</a></li>
                 </ul>
               </div>
             </nav>
@@ -163,18 +165,18 @@ function Navbar() {
         <ul>
           <li><a href="#">Home</a>
           </li>
-          <li><a href="#about">About</a>
+          <li><a href="#about">About us</a>
           <ul className="sub-menu">
               <li><a href="#about">Mission</a></li>
               <li><a href="#about">Vision</a></li>
             </ul>
           </li>
           
-          <li><a href="#strength">Strengths</a>
-          <ul className="sub-menu">
+          <li><a href="#quality-controls">Quality Control</a>
+          {/* <ul className="sub-menu">
               <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#iso">ISO</a></li>
               <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quality-control">Quality Control</a></li>
-            </ul>
+            </ul> */}
           </li>
           <li><a href="#safety">Health</a>
           </li>
@@ -326,6 +328,322 @@ function Navbar() {
   </div>
 </div>
 
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="hr" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12 iso-img">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/hr.png" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="bd" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12 iso-img">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/bd.png" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="mission" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/mission.png" className="mission-img" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="vision" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/vision.png" className="vision-img" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="values" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/values.png" className="values-img" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="strengths-modal" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/strengths.png" className="vision-img" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="chart" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/company-chart1.png" role="..."/>
+
+                      
+                  </div>
+                </div>
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/company-chart2.png" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="ltn__modal-area ltn__quick-view-modal-area">
+  <div className="modal fade" id="bv" tabIndex={-1}>
+    <div className="modal-dialog modal-lg" role="document">
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+            {/* <i class="fas fa-times"></i> */}
+          </button>
+        </div>
+        <div className="modal-body">
+          <div className="ltn__quick-view-modal-inner">
+            <div className="modal-product-item">
+              <div className="row">
+                {/* <div className="col-lg-6 col-12">
+                  <div className="modal-product-img">
+                    <img src="img/new/QC.jpg" alt="#" />
+                  </div>
+                </div> */}
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/TT.png" role="..."/>
+
+                      
+                  </div>
+                </div>
+                <div className="col-lg-12 col-12">
+                  <div className="modal-product-info">
+                    {/* <h3>ISO 9001:2008</h3> */}
+                    
+                     <img src="img/new/UU.png" role="..."/>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
   );
 }

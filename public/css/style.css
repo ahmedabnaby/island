@@ -7287,7 +7287,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   box-shadow: var(--ltn__box-shadow-4);
   border: 1px solid;
   border-color: var(--border-color-13);
-  background-color: var(--white); }
+  background-color: rgba(255, 255, 255, 0.418); }
   .ltn__product-item-4 .product-img {
     position: relative; }
     .ltn__product-item-4 .product-img a {
@@ -7296,6 +7296,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       -webkit-transition: all 0.5s ease 0s;
       -o-transition: all 0.5s ease 0s;
       transition: all 0.5s ease 0s; }
+.ltn__product-item-4:hover {
+  background-color: white;
+  transition: 0.3s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  padding-top: 35px;
+}
   .ltn__product-item-4 .product-img-location-gallery {
     position: absolute;
     bottom: 0;
@@ -7320,8 +7328,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       z-index: 2; }
       .ltn__product-item-4 .product-img-location-gallery ul li {
         list-style: none;
-        font-size: 14px;
-        color: var(--white); }
+        font-size: 14px; }
     .ltn__product-item-4 .product-img-location-gallery .product-img-gallery {
       margin-left: 10px; }
       .ltn__product-item-4 .product-img-location-gallery .product-img-gallery ul li {
@@ -7342,18 +7349,22 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     font-size: 18px;
     font-family: var(--ltn__heading-font);
     font-weight: 600;
-    color: var(--ltn__secondary-color);
-    margin-bottom: 5px; }
+    margin-bottom: 5px; 
+    color: var(--ltn__secondary-color);}
     .ltn__product-item-4 .product-price label {
       font-weight: 400;
       font-size: 14px; }
   .ltn__product-item-4 .product-title {
     font-size: 22px;
     margin-bottom: 15px;
-    font-weight: 600; }
+    font-weight: 600; 
+    color: var(--black-2);
+  }
   .ltn__product-item-4 .product-description p {
-    font-size: 14px;
-    margin-bottom: 15px; }
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--ltn__heading-color);
+   }
   .ltn__product-item-4 .product-info-bottom {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7374,7 +7385,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     -webkit-transform: inherit;
     -ms-transform: inherit;
     transform: inherit;
-    line-height: 1; }
+    line-height: 1;
+   }
     .ltn__product-item-4 .product-hover-action ul {
       -webkit-box-shadow: none;
       box-shadow: none; }

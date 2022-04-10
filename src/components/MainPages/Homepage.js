@@ -1,5 +1,5 @@
 // import Slider from "../../components/Slider"
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 class Homepage extends Component {
@@ -26,110 +26,383 @@ class Homepage extends Component {
       });
     } catch (e) {
       console.log(e);
+    }
   }
-}
 
   render() {
-    {const categories = this.state.categories;}
-    {const news = this.state.news;}
-    return (  <div>
-    {/* HOME */}
-    <div className="ltn__slider-area ltn__slider-3 text-center section-bg-2">
-  <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
-    {/* ltn__slide-item */}
-    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-50" data-bs-bg="img/new/33.JPG" id="home">
-  <div className="ltn__slide-item-inner  text-left">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 align-self-center">
-          <div className="slide-item-info">
-            <div className="slide-item-info-inner ltn__slide-animation">
-              {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
-              <h1 className="slide-title animated ">THE CONSTRUCTION YOU COUNT ON</h1>
-              <div className="slide-brief animated">
-                <p>Has accumulated a wide and diversed experience over the years.</p>
-              </div>
-              <div className="btn-wrapper animated">
-                <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    {/* ltn__slide-item */}
-    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-20" data-bs-bg="img/new/11.JPG" id="home">
-  <div className="ltn__slide-item-inner  text-left">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 align-self-center">
-          <div className="slide-item-info">
-            <div className="slide-item-info-inner ltn__slide-animation">
-              {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
-              <h1 className="slide-title animated ">THE CONSTRUCTION YOU COUNT ON</h1>
-              <div className="slide-brief animated">
-                <p>Has accumulated a wide and diversed experience over the years.</p>
-              </div>
-              <div className="btn-wrapper animated">
-                <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn more</a>
+    { const categories = this.state.categories; }
+    { const news = this.state.news; }
+    return (<div>
+      {/* HOME */}
+      <div className="ltn__slider-area ltn__slider-3 text-center section-bg-2">
+        <div className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1">
+          {/* ltn__slide-item */}
+          <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-30" data-bs-bg="img/new/33.JPG" id="home">
+            <div className="ltn__slide-item-inner  text-left">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12 align-self-center">
+                    <div className="slide-item-info">
+                      <div className="slide-item-info-inner ltn__slide-animation">
+                        {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
+                        <img src='img/new/logo-removebg-preview-removebg-preview-removebg-preview.png' className='logo-slider' />
+                        <h1 className="slide-title animated ">THE CONSTRUCTION YOU COUNT ON</h1>
+                        <div className="slide-brief animated">
+                          <p>Has accumulated a wide and diversed experience over the years.</p>
+                        </div>
+                        <div className="btn-wrapper animated">
+                          <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-{/* ltn__slide-item */}
-<div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-30" data-bs-bg="img/new/22.jpg">
-  <div className="ltn__slide-item-inner  text-left">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 align-self-center">
-          <div className="slide-item-info">
-            <div className="slide-item-info-inner ltn__slide-animation">
-              {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
-              <h1 className="slide-title animated ">The Construction You Count On</h1>
-              <div className="slide-brief animated">
-                <p>Has accumulated a wide and diversed experience over the years.</p>
-              </div>
-              <div className="btn-wrapper animated">
-                <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn more</a>
+
+          {/* ltn__slide-item */}
+          <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-20" data-bs-bg="img/new/63.jpg" id="home">
+            <div className="ltn__slide-item-inner  text-left">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12 align-self-center">
+                    <div className="slide-item-info">
+                      <div className="slide-item-info-inner ltn__slide-animation">
+                        {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
+                        <img src='img/new/logo-removebg-preview-removebg-preview-removebg-preview.png' className='logo-slider' />
+
+                        <h1 className="slide-title animated ">THE CONSTRUCTION YOU COUNT ON</h1>
+                        <div className="slide-brief animated">
+                          <p>Has accumulated a wide and diversed experience over the years.</p>
+                        </div>
+                        <div className="btn-wrapper animated">
+                          <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+          {/* ltn__slide-item */}
+          <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal--- ltn__slide-item-3 bg-image bg-overlay-theme-black-30" data-bs-bg="img/new/3.jpg">
+            <div className="ltn__slide-item-inner  text-left">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12 align-self-center">
+                    <div className="slide-item-info">
+                      <div className="slide-item-info-inner ltn__slide-animation">
+                        {/* <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Island</h6> */}
+                        <img src='img/new/logo-removebg-preview-removebg-preview-removebg-preview.png' className='logo-slider' />
+
+                        <h1 className="slide-title animated ">The Construction You Count On</h1>
+                        <div className="slide-brief animated">
+                          <p>Has accumulated a wide and diversed experience over the years.</p>
+                        </div>
+                        <div className="btn-wrapper animated">
+                          <a href="#about" className="theme-btn-1 btn btn-effect-1">Learn more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* ltn__slide-item */}
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
-    {/* ltn__slide-item */}
-  </div>
-</div>
+      {/* ABOUT */}
 
-{/* ABOUT */}
+      <div className="ltn__product-slider-area ltn__product-gutter pt-50 pb-40 plr--7 bg-image bg-overlay-theme-black-80" data-bs-bg="img/new/cco.jpg" id='about'>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title-area ltn__section-title-2--- text-center">
+                <h4 className="section-title text-color-white">About Us</h4>
+                <p className='text-color-white'>We cover all Egypt Governorates, Arab and African Countries.
+                  The Company Business Volume is now approx 200, 000 000 LE 
+                  </p>
+                  <h6 className='text-color-white'> You can view our company chart  <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#chart" ><span style={{color:'grey'}}>here!</span></a></h6>
 
+              </div>
+            </div>
+          </div>
+          <div className="row ltn__product-slider-item-four-active-full-width slick-arrow-1">
+            {/* ltn__product-item */}
+            <div className="col-lg-12">
+              <div className="ltn__product-item ltn__product-item-4 text-center---">
+
+                <div className="product-info">
+                  <h2 className="product-title" title="Quick View" data-bs-toggle="modal" data-bs-target="#mission"><a href="#">MISSION</a>
+                  </h2>
+                  <div className="product-description">
+                    <p>• We will work to deliver exceptional value for our shareholders by following
+                      a coherent and considered strategy. <br />
+                      • Targeting large, complex construction projects in foreigners’ markets. <br />
+                      • Working in partnership with local and global leaders.<br />
+                      • Maintaining our commitment to quality and safety.<br />
+                      • Being a good corporate citizen wherever we operate. <br />
+                      • Providing products and services for people in developing economies. <br />
+                      • Searching for new opportunities in order to deliver exceptional value. <br />
+                      • We believe that our development is strongly related to the development of our human resources through training. <br />
+                      • Promoting an environment of competitiveness amongst our employees to
+                      promote their sense of leadership and team working.
+                    </p>
+                  </div>
+                </div>
+                <div className="product-info-bottom">
+                  <div className="real-estate-agent">
+                    <div className="agent-brief">
+                      <h6><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#mission">Read more</a></h6>
+                    </div>
+                  </div>
+                  <div className="product-hover-action">
+                    <ul>
+                      <li>
+                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#mission">
+                          <i className="flaticon-expand" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ltn__product-item */}
+            <div className="col-lg-12">
+              <div className="ltn__product-item ltn__product-item-4 text-center---">
+
+                <div className="product-info">
+                  <h2 className="product-title" title="Quick View" data-bs-toggle="modal" data-bs-target="#vision"><a href="#">VISION</a>
+                  </h2>
+                  <div className="product-description">
+                    <p>• We aspire within the next five years to be recognized as the contractor of
+                      choice for large, complex and demanding construction projects in the Middle
+                      East as Egypt. <br />
+                      • We are committed to delivering quality work and products, safely and on
+                      schedule.<br />
+                      • A company that our clients want work with, our customers can rely on
+                      through high quality & healthy working environment and our employees are
+                      proud to work for.<br />
+                      • A  company with an open mind ready to embrace new opportunities and
+                      driven to deliver exceptional value<br />
+                      •  A company transforms the way people live and work through encouraging
+                      innovation and challenging convention.<br /><br /><br />
+                    </p>
+                  </div>
+                </div>
+                <div className="product-info-bottom">
+                  <div className="real-estate-agent">
+                    <div className="agent-brief">
+                      <h6><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#vision">Read more</a></h6>
+                    </div>
+                  </div>
+                  <div className="product-hover-action">
+                    <ul>
+                      <li>
+                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#vision">
+                          <i className="flaticon-expand" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="ltn__product-item ltn__product-item-4 text-center---">
+
+                <div className="product-info">
+                  <h2 className="product-title" title="Quick View" data-bs-toggle="modal" data-bs-target="#values"><a href="#">OUR VALUES</a>
+                  </h2>
+                  <div className="product-description">
+                    <p>
+                      <strong>Achievement:</strong> 
+                      We are results oriented and are committed to creatinng value and return on investment
+                      for our shareholders and clients. We do not compromise on quality and do our diligence in all processes in every
+                      level of the organization to ensure excellence in the end result. <strong style={{color:'var(--black-2)'}}>WE DELIVER</strong> <br/>
+                      <strong>Pro-activity:</strong> We are forward thinking and initiate change in the market instead of reacting to changing the market
+                      conditions after they have become a reality. We are committed to initiate new ideas and projects to help
+                      contribute to our own and the company’s success. We lead and inspire others to perform and encourage working outside our defiend scope.<strong style={{color:'var(--black-2)'}}>WE LEAD</strong> <br/>
+                      <strong>Creativity:</strong> We believe in structure but insist on free thinking and entrepreneurship.
+                      We encourage new ideas and out-of-the-box thinkers.<strong style={{color:'var(--black-2)'}}>WE DO THINGS DIFFERENTLY</strong>
+                    </p>
+                  </div>
+                </div>
+                <div className="product-info-bottom">
+                  <div className="real-estate-agent">
+                    <div className="agent-brief">
+                      <h6><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#values">Read more</a></h6>
+                    </div>
+                  </div>
+                  <div className="product-hover-action">
+                    <ul>
+                      <li>
+                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#values">
+                          <i className="flaticon-expand" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="ltn__product-item ltn__product-item-4 text-center---">
+
+                <div className="product-info">
+                  <h2 className="product-title"><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#strengths-modal">STRENGTHS</a>
+                  </h2>
+                  <div className="product-description">
+                    <p>Ultimately it is for others to judge our strengths, but we believe that these factors set us apart from our competitors:<br />
+                      •  <strong>Our people</strong> their expertise, hunger for knowledge and passion to excel.
+                      Above all, their loyalty and commitment to ISLAND for contracting.<br />
+                      •  <strong>Our resources</strong> capital resources that enable us to respond faster than our
+                      construction competitors, raw materials.<br />
+                      •  <strong>Our entrepreneurial attitude</strong> a strong appetite for investment and diversification to grow
+                      our business and increase revenue streams<br />
+                      •   <strong>Our experience</strong> a tradition for excellence and achievement reaching back
+                      over 17 years; an ability to share our client’s perspective that gives us
+                      a unique understanding of their needs throughout the project cycle.<br />
+                      • <strong>Our investment capacity</strong> financial resources that allow us to partner with
+                      clients as an investor and a contractor. The ability to self perform and to diversify into new industries.
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </div>
+                <div className="product-info-bottom">
+                  <div className="real-estate-agent">
+                    <div className="agent-brief">
+                      <h6><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#strengths-modal">Read more</a></h6>
+                    </div>
+                  </div>
+                  <div className="product-hover-action">
+                    <ul>
+                      <li>
+                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#strengths-modal">
+                          <i className="flaticon-expand" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="ltn__product-item ltn__product-item-4 text-center---">
+
+                <div className="product-info">
+                  <h2 className="product-title"><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#bd">BUSINESS DIVISIONS</a>
+                  </h2>
+                  <div className="product-description">
+                    <p>
+                      <strong>INDUSTRIAL</strong><br />
+                      •Steel factories, Large scale factories and Cement plants<br />
+                      <strong>OIL SECTOR</strong><br />
+                      •  Laboratories<br />
+                      <strong>Administrative & Commercial</strong><br />
+                      •  Office buildings, Showrooms and Banks<br />
+                      <strong>Hospitals</strong><br />
+                      •	 Health care buildings<br />
+                      <strong>Residential</strong><br />
+                      •	 Housing compounds<br />
+                      <strong>Tourism</strong><br />
+                      •	 Hotels and Resorts<br />
+                      <strong>Transportation & Community</strong><br />
+                      •	 Museums<br />
+                      •	 University Buildings<br />
+                      •	 Airports<br />
+                      •	 Sewage stations<br />
+                      •	 Water, Gas and Electricity stations<br />
+                    </p>
+                  </div>
+                </div>
+                <div className="product-info-bottom">
+                  <div className="real-estate-agent">
+                    <div className="agent-brief">
+                      <h6><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#bd">Read more</a></h6>
+                    </div>
+                  </div>
+                  <div className="product-hover-action">
+                    <ul>
+                      <li>
+                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#bd">
+                          <i className="flaticon-expand" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="ltn__product-item ltn__product-item-4 text-center---">
+
+                <div className="product-info">
+                  <h2 className="product-title"><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#hr">HUMAN RESOURCES</a>
+                  </h2>
+                  <div className="product-description">
+                    <p>
+                      Construction is about long-term investment. We work together with our
+                      employees, clients, business partners, suppliers and communities to ensure
+                      that the highest standard of professional conduct and ethic is embedded in
+                      everything we do.<br />
+                      Each individual employee plays a key role in <strong>ISLAND</strong>’s success. Our employees are part of a corporate culture that challenges and encourages everyone.
+                      Working together, we are focused on meeting our responsibilities as a market leading business to contribute to sustainable development in the markets we
+                      operate in.<br />
+                      We believe that the success of <strong>ISLAND</strong> is based on the skills and quality of
+                      its professional team and is one of its main competitive advantages. Accordingly, <strong>ISLAND</strong> maintains its commitment to continually improve their skills,
+                      capacities, commitment and motivation, always with the highest attention to
+                      work and safety conditions.
+                      To optimize the untapped human resources has been the added value of 
+                      <strong> ISLAND</strong> since its foundation. This formula has formed the cornerstone of the
+                      Company’s operation and success. As such, the management has undertaken
+                      to ...
+                    </p>
+                  </div>
+                </div>
+                <div className="product-info-bottom">
+                  <div className="real-estate-agent">
+                    <div className="agent-brief">
+                      <h6><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#hr">Read more</a></h6>
+                    </div>
+                  </div>
+                  <div className="product-hover-action">
+                    <ul>
+                      <li>
+                        <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#hr">
+                          <i className="flaticon-expand" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* 
 <div className="ltn__about-us-area pt-155 pb-155 bg-image bg-overlay-theme-black-60" data-bs-bg="img/new/cco.jpg" id="about">
   <div className="container">
     <div className="row">
-      {/* <div className="col-lg-6 align-self-center">
-      <ScrollAnimation animateIn="fadeInLeft">
-        <div className="about-us-img-wrap about-img-left">
-          <img src="img/new/covers.jpg" alt="About Us Image" />
-        </div>
-        </ScrollAnimation>
-      </div> */}
+
       <div className="col-lg-12 align-self-center text-center">
         <div className="about-us-info-wrap text-color-white">
         <ScrollAnimation animateIn='bounce'
           initiallyVisible={true}
           animateOnce={true}>
           <div>
-            {/* <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6> */}
             <h1 className="section-title">ABOUT US</h1>
             <p>ISLAND is committed to provide its clients with a product meeting contractual requirements
                and clients’ needs at fair cost.</p>
@@ -166,10 +439,10 @@ promote their sense of leadership and team working</p>
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
 
-{/* <div className="ltn__about-us-area pt-115 pb-100 " id="about">
+      {/* <div className="ltn__about-us-area pt-115 pb-100 " id="about">
   <div className="container">
     <div className="row">
       <div className="col-lg-6 align-self-center">
@@ -230,7 +503,7 @@ proud to work for.</p>
 </div> */}
 
 
-{/* <div className="ltn__about-us-area section-bg-1 pt-120 pb-90" id="about">
+      {/* <div className="ltn__about-us-area section-bg-1 pt-120 pb-90" id="about">
   <div className="container">
     <div className="row">
       <div className="col-lg-6">
@@ -327,70 +600,70 @@ innovation and challenging convention.
 
 
 
-{/* STRENGTHS */}
+      {/* STRENGTHS */}
 
-<div className="ltn__about-us-area pt-115 pb-100 section-bg-2" id="strength">
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-6 align-self-center">
-      <ScrollAnimation animateIn="fadeInLeft">
-        <div className="about-us-img-wrap about-img-left">
-          <img src="img/new/s1.jpg" alt="About Us Image" />
+      <div className="ltn__about-us-area pt-115 pb-100 section-bg-2" id="quality-controls">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <ScrollAnimation animateIn="fadeInLeft">
+                <div className="about-us-img-wrap about-img-left">
+                  <img src="img/new/s1.jpg" alt="About Us Image" />
+                </div>
+              </ScrollAnimation>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="about-us-info-wrap">
+                <ScrollAnimation animateIn='bounce'
+                  initiallyVisible={true}
+                  animateOnce={true}>
+                  <div className="section-title-area ltn__section-title-2--- mb-30">
+                    <h1 className="section-title">QUALITY ASSURANCE / QUALITY CONTROL</h1>
+                    <p>Ultimately it is for others to judge our strengths, but we believe that these factors set us apart from our competitors.</p>
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp">
+                  <div className="ltn__feature-item ltn__feature-item-3">
+                    <div className="ltn__feature-icon">
+                      <span><i className="icon-award" /></span>
+                    </div>
+                    <div className="ltn__feature-info">
+                      <h4><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#iso">ISO</a></h4>
+                      <p> <i className="icon-done" />  &nbsp; To accomplish this mission, the General Management has set up a Quality System, operating in compliance with ISO 9001 standard. </p>
+                    </div>
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" delay={100}>
+                  <div className="ltn__feature-item ltn__feature-item-3">
+                    <div className="ltn__feature-icon">
+                      <span><i className="icon-pressure" /></span>
+                    </div>
+                    <div className="ltn__feature-info">
+                      <h4><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quality-control">QUALITY CONTROL</a></h4>
+                      <p><i className="icon-done" /> &nbsp; ISLAND implements an
+                        advanced management system and planning techniques to optimize the usage of time and resources.</p>
+                    </div>
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp" delay={100}>
+                  <div className="ltn__feature-item ltn__feature-item-3">
+                    <div className="ltn__feature-icon">
+                      <span><i className="flaticon-hospital" /></span>
+                    </div>
+                    <div className="ltn__feature-info">
+                      <h4><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#bv">BUSINESS VOLUME</a></h4>
+                      <p><i className="icon-done" /> &nbsp; ISLAND’s commitment of honor holds the management responsible to the effective management of Health, Safety and Environment issues as an integral
+                        part of our policies, philosophy and procedures.</p>
+                    </div>
+                  </div>
+                </ScrollAnimation>
+              </div>
+            </div>
+          </div>
         </div>
-        </ScrollAnimation>
       </div>
-      <div className="col-lg-6 align-self-center">
-        <div className="about-us-info-wrap">
-        <ScrollAnimation animateIn='bounce'
-          initiallyVisible={true}
-          animateOnce={true}>
-          <div className="section-title-area ltn__section-title-2--- mb-30">
-            <h1 className="section-title">STRENGTHS</h1>
-            <p>Ultimately it is for others to judge our strengths, but we believe that these factors set us apart from our competitors.</p>
-          </div>  
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp">
-          <div className="ltn__feature-item ltn__feature-item-3">
-            <div className="ltn__feature-icon">
-              <span><i className="icon-award" /></span>
-            </div>
-            <div className="ltn__feature-info">
-              <h4><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#iso">ISO</a></h4>
-              <p> <i className="icon-done" />  &nbsp; To accomplish this mission, the General Management has set up a Quality System, operating in compliance with ISO 9001 standard. </p>
-            </div>
-          </div>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" delay={100}>
-          <div className="ltn__feature-item ltn__feature-item-3">
-            <div className="ltn__feature-icon">
-              <span><i className="icon-pressure" /></span>
-            </div>
-            <div className="ltn__feature-info">
-              <h4><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quality-control">Quality Control</a></h4>
-              <p><i className="icon-done" /> &nbsp; ISLAND implements an 
-advanced management system and planning techniques to optimize the usage of time and resources.</p>
-            </div>
-          </div>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" delay={100}>
-          <div className="ltn__feature-item ltn__feature-item-3">
-            <div className="ltn__feature-icon">
-              <span><i className="flaticon-hospital" /></span>
-            </div>
-            <div className="ltn__feature-info">
-              <h4><a href="#safety">Safety</a></h4>
-              <p><i className="icon-done" /> &nbsp; ISLAND’s commitment of honor holds the management responsible to the effective management of Health, Safety and Environment issues as an integral 
-part of our policies, philosophy and procedures.</p>
-            </div>
-          </div>
-          </ScrollAnimation>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-{/* <div className="ltn__feature-area pt-90 pb-90 section-bg-2" id="strength">
+      {/* <div className="ltn__feature-area pt-90 pb-90 section-bg-2" id="strength">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
@@ -457,226 +730,247 @@ clients as an investor and a contractor. The ability to self perform and to dive
   </div>
 </div> */}
 
-{/* SAFTEY */}
+      {/* SAFTEY */}
 
-<div className="ltn__testimonial-area section-bg-2--- bg-image-top pt-115 pb-25 " data-bs-bg="img/new/saftey.jpg" id="safety">
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-12">
-        <div className="section-title-area ltn__section-title-2--- text-center---">
-          <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">HEALTH, SAFETY & ENVIRONMENT MANAGEMENT</h6>
-          <h1 className="section-title white-color">SEE HOW WE PROVIDE <br />SAFTEY</h1>
-        </div>
-      </div>
-    </div>
-    <div className="row ltn__testimonial-slider-6-active slick-arrow-3">
-      <div className="col-lg-4">
-        <div className="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
-          <div className="ltn__testimoni-info">
-          <p> 
-            Our health, safety and environmental management system safeguards our 
-day-to-day activities and is underpinned by clear communication and training 
-to employees and others to raise awareness on key issues. The system allows 
-ISLAND to sustain, assess, and review how well it is integrating international 
-standards of health, safety and environmental excellence (such as ISO 14001 
-and OHSAS 18001) into the company’s business and projects.
-</p>
-            
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4">
-      <div className="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
-          <div className="ltn__testimoni-info">
-            
-          <p> 
-            Ensuring a safe and healthy environment for our employees, contractors, 
-clients and the wider public is our top priority. ISLAND maintains a continuous improvement culture where health, safety and environmental requirenments are integrated into the business policy, philosophy and procedures. We 
-set targets and objectives, and monitor our performance through key point 
-indicators (KPIs), audit and inspection to ensure compliance.
-</p>
-
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4">
-      <div className="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
-          <div className="ltn__testimoni-info">
-            
-          <p> 
-            We implement appropriate risk reduction programs, plans, and safe systems 
-of work and audit schedules in order to continuously improve on our health, 
-safety and environmental performance. We meet and exceed the requirements 
-laid down by the relevant occupational health and safety legislation wherever 
-we operate.
-
-</p>
-
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-4">
-      <div className="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
-          <div className="ltn__testimoni-info">
-            
-          <p> 
-          ISLAND’s commitment of honor holds the management responsible to the 
-eff ective management of Health, Safety and Environment issues as an integral 
-part of our policies, philosophy and procedures.
-<br/>
-<br/>
-<br/>
-</p>
-
-          </div>
-        </div>
-      </div>
-      {/*  */}
-    </div>
-  </div>
-</div>
-
-{/* PROJECTS */}
-<div className="ltn__banner-area" id="projects">
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-12">
-        <div className="section-title-area ltn__section-title-2--- text-center">
-          <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">Business Divisions</h6>
-          <h1 className="section-title">PROJECTS</h1>
-        </div>
-      </div>
-    </div>
-    <ScrollAnimation animateIn="fadeInLeft" delay={300}>
-
-    <div className="row">
-  {this.state.categories.map(category => (
-    <div className="col-lg-4 col-md-6" key={category.id}>
-        <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image-1" style={{backgroundImage: `url(${category.image})`}}>                        
-          <div className="ltn__banner-info">
-            <h3><a href={`category/${category.id}`}>{category.title}</a></h3>
-            <p> • {category.description}</p>
-            <mark> 13 Listings</mark>
-          </div>
-        </div>
-      </div>
-  ))
-  }
-    </div>
-    </ScrollAnimation>
-  </div>
-</div>
-
-{/* NEWS */}
-<div className="ltn__blog-area pt-90 pb-70 section-bg-2" id="news">
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-12">
-        <div className="section-title-area ltn__section-title-2--- text-center">
-          <h6 className="section-subtitle section-subtitle-2">News &amp; Blogs</h6>
-          <h1 className="section-title">LEATEST NEWS FEEDS</h1>
-        </div>
-      </div>
-    </div>
-    <ScrollAnimation animateIn="fadeInLeft" delay={300}>
-    <div className="row ltn__blog-item-3-normal">
-      {/* Blog Item */}
-  {this.state.news?.map(item => (
-    <div className="col-md-3" key={item.id}>
-            <div className="ltn__blog-item ltn__blog-item-3" key={item.id}>
-          <div className="ltn__blog-img">
-            <a href="#"><img src={item.image} alt="#" /></a>
-          </div>
-          <div className="ltn__blog-brief">
-            
-            <h3 className="ltn__blog-title"><a href="#">{item.title}</a></h3>
-            <div className="ltn__blog-meta-btn">
-              <div className="ltn__blog-meta">
-                <ul>
-                  <li className="ltn__blog-date"><i className="far fa-calendar-alt" />{item.date}</li>
-                </ul>
-              </div>
-              <div className="ltn__blog-btn">
-                <a href="#">Read more</a>
+      <div className="ltn__testimonial-area section-bg-2--- bg-image-top pt-115 pb-25 " data-bs-bg="img/new/saftey.jpg" id="safety">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title-area ltn__section-title-2--- text-center---">
+                <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">HEALTH, SAFETY & ENVIRONMENT MANAGEMENT</h6>
+                <h1 className="section-title white-color">SEE HOW WE PROVIDE <br />SAFTEY</h1>
               </div>
             </div>
           </div>
+          <div className="row ltn__testimonial-slider-6-active slick-arrow-3">
+            <div className="col-lg-4">
+              <div className="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
+                <div className="ltn__testimoni-info">
+                  <p>
+                    Our health, safety and environmental management system safeguards our
+                    day-to-day activities and is underpinned by clear communication and training
+                    to employees and others to raise awareness on key issues. The system allows
+                    ISLAND to sustain, assess, and review how well it is integrating international
+                    standards of health, safety and environmental excellence (such as ISO 14001
+                    and OHSAS 18001) into the company’s business and projects.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
+                <div className="ltn__testimoni-info">
+
+                  <p>
+                    Ensuring a safe and healthy environment for our employees, contractors,
+                    clients and the wider public is our top priority. ISLAND maintains a continuous improvement culture where health, safety and environmental requirenments are integrated into the business policy, philosophy and procedures. We
+                    set targets and objectives, and monitor our performance through key point
+                    indicators (KPIs), audit and inspection to ensure compliance.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
+                <div className="ltn__testimoni-info">
+
+                  <p>
+                    We implement appropriate risk reduction programs, plans, and safe systems
+                    of work and audit schedules in order to continuously improve on our health,
+                    safety and environmental performance. We meet and exceed the requirements
+                    laid down by the relevant occupational health and safety legislation wherever
+                    we operate.
+
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="ltn__testimonial-item ltn__testimonial-item-7 ltn__testimonial-item-8">
+                <div className="ltn__testimoni-info">
+
+                  <p>
+                    ISLAND’s commitment of honor holds the management responsible to the
+                    eff ective management of Health, Safety and Environment issues as an integral
+                    part of our policies, philosophy and procedures.
+                    <br />
+                    <br />
+                    <br />
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            {/*  */}
+          </div>
         </div>
       </div>
-      ))
-    }
+
+      {/* PROJECTS */}
+      <div className="ltn__banner-area" id="projects">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title-area ltn__section-title-2--- text-center">
+                <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">Business Divisions</h6>
+                <h1 className="section-title">PROJECTS</h1>
+              </div>
+            </div>
+          </div>
+          <ScrollAnimation animateIn="fadeInLeft" delay={300}>
+
+            <div className="row">
+              {this.state.categories.map(category => (
+                <div className="col-lg-4 col-md-6" key={category.id}>
+                  <div className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image-1" style={{ backgroundImage: `url(${category.image})` }}>
+                    <div className="ltn__banner-info">
+                      <h3><a href={`category/${category.id}`}>{category.title}</a></h3>
+                      <p> • {category.description}</p>
+                      <mark> 13 Listings</mark>
+                    </div>
+                  </div>
+                </div>
+              ))
+              }
+            </div>
+          </ScrollAnimation>
+        </div>
+      </div>
+
+      {/* NEWS */}
+      <div className="ltn__blog-area pt-90 pb-70 section-bg-2" id="news">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title-area ltn__section-title-2--- text-center">
+                <h6 className="section-subtitle section-subtitle-2">News &amp; Blogs</h6>
+                <h1 className="section-title">LEATEST NEWS FEEDS</h1>
+              </div>
+            </div>
+          </div>
+          <ScrollAnimation animateIn="fadeInLeft" delay={300}>
+            <div className="row ltn__blog-item-3-normal">
+              {/* Blog Item */}
+              {this.state.news?.map(item => (
+                <div className="col-md-3" key={item.id}>
+                  <div className="ltn__blog-item ltn__blog-item-3" key={item.id}>
+                    <div className="ltn__blog-img">
+                      <a href="#"><img src={item.image} alt="#" /></a>
+                    </div>
+                    <div className="ltn__blog-brief">
+
+                      <h3 className="ltn__blog-title"><a href="#">{item.title}</a></h3>
+                      <div className="ltn__blog-meta-btn">
+                        <div className="ltn__blog-meta">
+                          <ul>
+                            <li className="ltn__blog-date"><i className="far fa-calendar-alt" />{item.date}</li>
+                          </ul>
+                        </div>
+                        <div className="ltn__blog-btn">
+                          <a href="#">Read more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))
+              }
+            </div>
+          </ScrollAnimation>
+        </div>
+      </div>
+
+
+      {/* CLIENTS */}
+      <div className="ltn__img-slider-area d-mobile-none" id='clients'>
+        <div className="container">
+          <div className="row">
+            <ScrollAnimation animateIn="fadeIn">
+              <div className="col-lg-12 pt-4">
+                <div className="section-title-area ltn__section-title-2--- text-center---">
+                  {/* <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">Upcoming Projects</h6> */}
+                  <h1 className="section-title text-center black-color">Clients</h1>
+                </div>
+              </div>
+            </ScrollAnimation>
+          </div>
+          <div className="row ltn__image-slider-4-active slick-arrow-1 slick-arrow-1-inner ltn__no-gutter-all pb-0">
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/cx.jpg" data-rel="lightcase:myCollection">
+                  <img src="img/new/cx.jpg" alt="Image" />
+                </a>
+              </div>
+            </div>
+
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/c2.png" data-rel="lightcase:myCollection">
+                  <img src="img/new/c2.png" alt="Image" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/c11.png" data-rel="lightcase:myCollection">
+                  <img src="img/new/c11.png" alt="Image" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/Technip.svg.png" data-rel="lightcase:myCollection">
+                  <img src="img/new/Technip.svg.png" alt="Image" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/c0.png" data-rel="lightcase:myCollection">
+                  <img src="img/new/c0.png" alt="Image" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/c22.png" data-rel="lightcase:myCollection">
+                  <img src="img/new/c22.png" alt="Image" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/c3.png" data-rel="lightcase:myCollection">
+                  <img src="img/new/c3.png" alt="Image" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/c7.jpg" data-rel="lightcase:myCollection">
+                  <img src="img/new/c7.jpg" alt="Image" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-1">
+              <div className="ltn__img-slide-item-4 p-4">
+                <a href="img/new/c4.jpg" data-rel="lightcase:myCollection">
+                  <img src="img/new/c4.jpg" alt="Image" />
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
     </div>
-    </ScrollAnimation>
-  </div>
-</div>
-
-
-{/* CLIENTS */}
-<div className="ltn__img-slider-area d-mobile-none" id='clients'>
-  <div className="container">
-  <div className="row">
-    <ScrollAnimation animateIn="fadeIn">
-      <div className="col-lg-12 pt-4">
-        <div className="section-title-area ltn__section-title-2--- text-center---">
-          {/* <h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color--- white-color">Upcoming Projects</h6> */}
-          <h1 className="section-title text-center black-color">Clients</h1>
-        </div>
-      </div>
-      </ScrollAnimation>
-    </div>
-    <div className="row ltn__image-slider-4-active slick-arrow-1 slick-arrow-1-inner ltn__no-gutter-all pb-0">
-      <div className="col-lg-1">
-        <div className="ltn__img-slide-item-4 p-4">
-          <a href="img/new/cx.jpg" data-rel="lightcase:myCollection">
-            <img src="img/new/cx.jpg" alt="Image" />
-          </a>
-        </div>
-      </div>
-      
-      <div className="col-lg-1">
-      <div className="ltn__img-slide-item-4 p-4">
-          <a href="img/new/c2.png" data-rel="lightcase:myCollection">
-            <img src="img/new/c2.png" alt="Image" />
-          </a>
-        </div>
-      </div>
-      <div className="col-lg-1">
-      <div className="ltn__img-slide-item-4 p-4">
-          <a href="img/new/c0.png" data-rel="lightcase:myCollection">
-            <img src="img/new/c0.png" alt="Image" />
-          </a>
-        </div>
-      </div>
-      <div className="col-lg-1">
-      <div className="ltn__img-slide-item-4 p-4">
-          <a href="img/new/c3.png" data-rel="lightcase:myCollection">
-            <img src="img/new/c3.png" alt="Image" />
-          </a>
-        </div>
-      </div>
-      <div className="col-lg-1">
-      <div className="ltn__img-slide-item-4 p-4">
-          <a href="img/new/c7.jpg" data-rel="lightcase:myCollection">
-            <img src="img/new/c7.jpg" alt="Image" />
-          </a>
-        </div>
-      </div>
-      <div className="col-lg-1">
-      <div className="ltn__img-slide-item-4 p-4">
-          <a href="img/new/c4.jpg" data-rel="lightcase:myCollection">
-            <img src="img/new/c4.jpg" alt="Image" />
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
-  </div>
-);
-}
+    );
+  }
 }
 
 export default Homepage;

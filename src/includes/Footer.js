@@ -58,7 +58,7 @@ function Footer() {
             <div className="footer-menu">
               <ul>
                 <li><a href="#safety"> Health & Safety</a></li>
-                <li><a href="#strengths">Strengths</a></li>
+                <li><a href="#about">Quality Control</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#news">News</a></li>
               </ul>

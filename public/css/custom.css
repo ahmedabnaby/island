@@ -66,6 +66,27 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+.mission-img
+{
+    position: relative;
+    left: 60px;
+}
+.vision-img
+{
+    position: relative;
+    left: 30px;
+}
+.values-img
+{
+    position: relative;
+    left: 60px;
+}
+.logo-slider
+{
+    position: relative;
+    left: 15%;
+    margin-bottom: -0px;
+}
 @media only screen and (max-width:1199px) {
     .ltn__slide-animation {
         position: relative;

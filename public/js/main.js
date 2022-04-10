@@ -520,7 +520,7 @@
         $('.ltn__product-slider-one-active').slick({
             arrows: true,
             dots: false,
-            infinite: true,
+            infinite: false,
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -558,7 +558,7 @@
         $('.ltn__product-slider-item-three-active').slick({
             arrows: true,
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -600,7 +600,7 @@
         $('.ltn__product-slider-item-four-active').slick({
             arrows: true,
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 300,
             slidesToShow: 4,
             slidesToScroll: 1,
@@ -644,10 +644,10 @@
         $('.ltn__product-slider-item-four-active-full-width').slick({
             arrows: true,
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 300,
-            slidesToShow: 4,
-            slidesToScroll: 1,
+            slidesToShow: 3,
+            slidesToScroll: 3,
             prevArrow: '<a class="slick-prev"><i class="fas fa-arrow-left" alt="Arrow Icon"></i></a>',
             nextArrow: '<a class="slick-next"><i class="fas fa-arrow-right" alt="Arrow Icon"></i></a>',
             responsive: [
